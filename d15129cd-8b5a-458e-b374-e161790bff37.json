@@ -1,0 +1,303 @@
+{
+  "title": "Three blog posts - not my job",
+  "roles": [
+    {
+      "key": "692965f0-5baa-897c-02e4-b2fd891de67d",
+      "name": "fixer",
+      "admin": true,
+      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab"
+    },
+    {
+      "name": "customer",
+      "key": "0305d7f3-1211-a180-c461-9cea9b5c117c"
+    },
+    {
+      "key": "ad380bad-6794-e005-7ca5-95b502751b0c",
+      "name": "project manager",
+      "admin": true,
+      "defaultUser": "df8b16f4-50d5-49f1-8988-d1a324dcec15"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Start your Complete SEO fixes job",
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "title": "Payment",
+          "type": "pay",
+          "help": "It's a one off payment of $180, you will not be charged again.",
+          "required": true,
+          "totalUSD": "180",
+          "key": "33d93981-841b-2c9e-bb6e-1b252d129a01",
+          "order": 1
+        }
+      ],
+      "key": "a17e1b84-3725-6c4a-ad61-5aab63f6ff0a",
+      "order": 1
+    },
+    {
+      "title": "Set up access",
+      "completeRole": "customer",
+      "reviewRole": "",
+      "stepItems": [
+        {
+          "title": "What website is the work for?",
+          "type": "text",
+          "required": true,
+          "key": "cad90665-8c66-6e69-ea87-8e6205cf2e82",
+          "order": 1
+        },
+        {
+          "title": "Create a login",
+          "type": "login",
+          "description": "Add a new user to your site admin with the details shown below. Instructions for: <a href=\"https://docs.shopify.com/manual/settings/account/staff-members#add-new-staff-member\" target=\"_blank\">Shopify, adding a staff member</a>, <a href=\"https://support.bigcommerce.com/articles/Public/Adding-Editing-Users\" target=\"_blank\">Bigcommerce, adding a user</a>.",
+          "required": true,
+          "for": "fixer",
+          "key": "ecac86b3-026b-5f6d-92b7-4ee273e2959d",
+          "order": 2
+        }
+      ],
+      "key": "44febc17-97aa-0c66-6a5b-84882e176abc",
+      "order": 2
+    },
+    {
+      "title": "Answer questions",
+      "completeRole": "customer",
+      "reviewRole": "fixer",
+      "stepItems": [
+        {
+          "title": "Answer the questions below as best as you can so that we can complete the work exactly how you'd like. If you're unsure about any, simply write 'unsure' and we'll come up with suggestions for your approval.",
+          "type": "html",
+          "description": "You can press the help icon for more help on each one.",
+          "required": true,
+          "key": "88f3592a-7750-0b4c-baad-01daaca3095a",
+          "order": 1
+        },
+        {
+          "title": "What main heading (H1) would you like on your homepage?",
+          "type": "text",
+          "help": "<ul><li>Or you can specify some existing text on the page</li><li>Include keywords you want to target</li><li>Don't make it a long list of comma separated words</li><li>Write in a natural way</li><li>Make it a single sentence</li><li>Don't worry, this isn't permanent as we'll make it easy for you to change later</li></ul>",
+          "required": true,
+          "key": "be8f6fa0-87f6-b400-dd67-1dc778020ddb",
+          "order": 2
+        },
+        {
+          "title": "Where do you want this main heading (H1) located, what size and colour should the text be?",
+          "type": "text",
+          "help": "If you don't have a strong opinion just write 'make it look good",
+          "required": true,
+          "key": "dcb4eec8-11d5-4069-0b3d-8b20bfaa3a1b",
+          "order": 3
+        },
+        {
+          "title": "What new subheading (H2) would you like on your homepage?",
+          "type": "text",
+          "help": "<ul><li>Or you can specify some existing text on the page</li><li>Include keywords you want to target</li><li>Don't make it a long list of comma separated words</li><li>Write in a natural way</li><li>Make it a single sentence</li></ul>",
+          "required": true,
+          "key": "ee545c19-1e4a-9c59-c6fc-1c1925137980",
+          "order": 4
+        },
+        {
+          "title": "Where do you want this subheading (H2) located, what size and colour should the text be?",
+          "type": "text",
+          "help": "If you don't have a strong opinion just write 'make it look good'",
+          "required": true,
+          "key": "399cea75-94ed-0052-94fd-906cf100b025",
+          "order": 5
+        },
+        {
+          "title": "What do you want your homepage META description to be?",
+          "type": "text",
+          "help": "<ul><li>This is usually shown in Google results, so make it compelling</li><li>Include why the searcher should clickthrough to your shop</li><li>Good example: \\\"Quality, handcrafted wooden propeller blades, props and chucks made using traditional processes. In sustainable Cherry, Maple and other woods.\\\"</li><li>Limit it to two or three sentences</li><li>Don't worry, this isn't permanent as we'll make it easy for you to change later</li></ul>",
+          "required": true,
+          "key": "329374d2-8358-9725-6e71-55bea46f7c80",
+          "order": 6
+        },
+        {
+          "title": "What do you want your homepage page title to be?",
+          "type": "text",
+          "help": "<ul><li>Select something that's unique about your shop</li><li>Avoid including 'Welcome to' and your shop name</li><li>Good example: \\\"Buy handcrafted wooden propeller blades from sustainable Cherry wood\\\"</li><li>Don't worry, this isn't permanent as we'll make it easy for you to change later</li></ul>",
+          "required": true,
+          "key": "60388a50-71a6-3f61-40f2-ae39dec554f9",
+          "order": 7
+        },
+        {
+          "title": "What do you want to include at the end of all page titles?",
+          "type": "text",
+          "help": "<ul><li>Include your shop name</li><li>Keep it concise, including your most popular categories</li><li>Good example: \\\"Ohio Propellers Inc. for propeller blades, props and chucks\\\"</li><li>Don't worry, this isn't permanent as we'll make it easy for you to change later</li></ul>",
+          "required": false,
+          "key": "4175acd8-d2d6-fd1d-95a4-814c9a3cfa28",
+          "order": 8
+        },
+        {
+          "title": "New, ready job at Plug in SEO",
+          "type": "sendemail",
+          "required": true,
+          "to": "project manager",
+          "subject": "New {{ job_title }} job at Blimpon for you",
+          "body": "<h1>New job created: {{ job_title }} at Blimpon</h1><p>The customer has paid, provided access and answered the questions so it's now ready for your work.</p>",
+          "key": "66038017-8a5c-9b8e-f114-1963540ff9d7",
+          "order": 9
+        }
+      ],
+      "key": "34ad5c17-bf32-559f-21b9-85758b92e63c",
+      "order": 3
+    },
+    {
+      "title": "Meta descriptions",
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "title": "Make the homepage meta description {{ step3.stepItem6 }}",
+          "type": "confirmation",
+          "description": "Add a theme setting so this can be changed easily in future",
+          "help": "Make sure the homepage has a good meta description. The customer has asked for this: {{ step3.stepItem6 }}",
+          "required": true,
+          "key": "2450c17c-8c77-1a5d-e564-b0389e5eeda8",
+          "order": 1
+        },
+        {
+          "title": "Auto-generated meta descriptions for all other pages",
+          "type": "confirmation",
+          "help": "Make it so that meta descriptions for all pages are automatically generated, overrideable on a page-by-page basis in the site admin",
+          "required": true,
+          "key": "df58cec8-4762-04fb-c7e2-307ac76915ab",
+          "order": 2
+        }
+      ],
+      "key": "3c2dc8ad-2a7f-7c95-4352-0d1dcf008737",
+      "order": 4
+    },
+    {
+      "title": "Headings and subheadings",
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "title": "Made sure there's a single, good H1 on the homepage",
+          "type": "confirmation",
+          "description": "The customer has asked for this text: {{ step3.stepItem2 }}<br/>Looking like this: {{ step3.stepItem3 }}",
+          "required": true,
+          "key": "4dede167-f41b-5201-53fa-5400d7e8f599",
+          "order": 1
+        },
+        {
+          "title": "Proper subheadings on the homepage",
+          "type": "confirmation",
+          "description": "The customer has asked for this text: {{ step3.stepItem4 }}<br/>Looking like this: {{ step3.stepItem5 }}",
+          "required": true,
+          "key": "81f207ed-50c8-19b9-fcee-c3c16ae3ec97",
+          "order": 2
+        }
+      ],
+      "key": "395ebc60-a108-bada-45f4-7a3fe05595c3",
+      "order": 5
+    },
+    {
+      "title": "Page titles",
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "title": "Good homepage page title",
+          "type": "confirmation",
+          "description": "The customer has asked for this: {{ step3.stepItem7 }}",
+          "required": true,
+          "key": "beae123f-53ec-453a-5e07-0cdb9393fc53",
+          "order": 1
+        },
+        {
+          "title": "Auto-generated page titles for all other pages",
+          "type": "confirmation",
+          "help": "Make it so that page titles for all pages are automatically generated, overrideable on a page-by-page basis in the site admin",
+          "required": true,
+          "key": "37df7538-b7d8-8642-c2eb-9f1c26d5594c",
+          "order": 2
+        },
+        {
+          "title": "Site-wide page title suffix",
+          "type": "confirmation",
+          "description": "Add an automatic suffix to all page titles (apart from the homepage), configurable in the site admin. The customer has asked for: {{ step3.stepItem8 }}",
+          "required": true,
+          "key": "c889396f-72d8-8d6f-4818-286b056ba118",
+          "order": 3
+        }
+      ],
+      "key": "ef183583-6943-7eba-3278-026def866aa8",
+      "order": 6
+    },
+    {
+      "title": "Image ALT tags",
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "title": "ALT tags for all homepage images",
+          "type": "confirmation",
+          "help": "Make sure all images on the homepage have good ALT tags. Make them automatically generated if possible, otherwise easily changeable by the customer (using a theme setting or similar)",
+          "required": true,
+          "key": "3ea011da-adb9-8935-8828-73b80e85bafc",
+          "order": 1
+        },
+        {
+          "title": "Auto-generated ALT tags for key images: product page, collection page etc.",
+          "type": "confirmation",
+          "help": "Check and fix that things like the product name is the ALT tag for product images on the product page and other key pages",
+          "required": true,
+          "key": "ad14386d-a541-3aab-6a87-a35de2db490b",
+          "order": 2
+        }
+      ],
+      "key": "9143e886-63ef-1ea5-a79b-c0a4208f8c71",
+      "order": 7
+    },
+    {
+      "title": "Quality control",
+      "completeRole": "project manager",
+      "stepItems": [
+        {
+          "title": "Check that all SEO fixes have been completed and the Plug in SEO verdict has improved",
+          "type": "confirmation",
+          "required": true,
+          "key": "1188daed-84a8-239d-858b-a2584829c111",
+          "order": 1
+        }
+      ],
+      "key": "6aba8cf3-42fd-af18-41f5-e23b17e3b3c7",
+      "order": 8
+    },
+    {
+      "title": "Complete the work",
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "title": "How happy are you with the work?",
+          "type": "faceRating",
+          "required": true,
+          "for": "fixer",
+          "key": "1d8c4f45-98fe-5e25-4a61-2ffd4d312fdd",
+          "order": 1
+        },
+        {
+          "title": "Payout project manager",
+          "type": "payout",
+          "required": true,
+          "role": "project manager",
+          "percentageOfBalance": "20",
+          "key": "65cedfaf-a198-6b3e-ec4b-e7bb8089df03",
+          "order": 2
+        },
+        {
+          "title": "Payout fixer",
+          "type": "payout",
+          "required": true,
+          "role": "fixer",
+          "percentageOfBalance": "100",
+          "key": "570b22dd-db51-386a-b2ab-116833090648",
+          "order": 3
+        }
+      ],
+      "key": "21b0df11-1fc4-9b96-219a-ffc766c5e9cd",
+      "order": 9
+    }
+  ],
+  "description": "Structure your HTML (website code) properly and ensuring the right keywords are used in the right places is essential to ensure you have the best chance to rank well in Google, Bing and other search engines.\n\nPage titles, meta descriptions, headings, ALT tags all have a part to play in this. With many e-commerce and website platforms like Shopify, Bigcommerce and Wordpress lots of this can be automatically generated with the right code in place. \n\nYour site template code will be fixed to take full advantage of this and correct HTML errors (things like duplicate title tags). You don't need any programming experience. You simply answer a few questions about the keywords you'd like to target. \n\nIf your site isn't in English that's okay too. As long as you can provide keywords in your language and message your fixer in English we can handle all of the coding. Spanish, French, Danish, Thai and other customers have successfully completed this job."
+}
