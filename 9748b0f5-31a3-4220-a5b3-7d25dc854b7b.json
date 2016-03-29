@@ -67,6 +67,19 @@
         }
       ],
       "key": "686dd486-05bc-e519-f403-0f854b2b8ef3"
+    },
+    {
+      "key": "729ded9e-9670-126a-152e-3d55ea233ea4",
+      "title": "another step",
+      "order": 4,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "b5752b25-eb27-b87e-cdfd-de2600bdb183",
+          "title": "some wuesiton",
+          "order": 1
+        }
+      ]
     }
   ],
   "id": "9748b0f5-31a3-4220-a5b3-7d25dc854b7b"
