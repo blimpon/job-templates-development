@@ -1,0 +1,73 @@
+{
+  "title": "Something new",
+  "roles": [
+    {
+      "name": "customer",
+      "key": "bc407a80-bf8f-fd6c-9d32-7d06c7e76d73"
+    },
+    {
+      "name": "fixer",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "admin": true,
+      "key": "76806a31-1aa6-e34e-74fc-aab46b67befd"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pay",
+      "completeRole": "customer",
+      "order": 1,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Payment",
+          "type": "pay",
+          "totalUSD": 9999,
+          "required": true,
+          "key": "9994a92f-90f3-2391-6d99-489f7e578094"
+        }
+      ],
+      "key": "7fb6f71a-32e2-b9c2-3c65-922a599fd484"
+    },
+    {
+      "title": "Do the work",
+      "completeRole": "fixer",
+      "order": 2,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Has the work been done?",
+          "type": "confirmation",
+          "required": true,
+          "key": "03bc84be-b5c8-2c27-0aa2-1368c6899fa7"
+        }
+      ],
+      "key": "81b213fa-86b0-b433-e3e0-481aa9ce27d8"
+    },
+    {
+      "title": "Rate",
+      "completeRole": "customer",
+      "order": 3,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "How happy are you with the work completed?",
+          "type": "faceRating",
+          "for": "fixer",
+          "required": true,
+          "key": "a0a318c5-6d1c-ff95-ab77-66341d08965c"
+        },
+        {
+          "order": 2,
+          "title": "Payout fixer",
+          "type": "payout",
+          "role": "fixer",
+          "percentageOfBalance": 100,
+          "key": "ac54acc5-feaf-d26d-bdd6-e009bfae5905"
+        }
+      ],
+      "key": "08b6eb39-5ba0-f8f4-a247-11d587fa290a"
+    }
+  ],
+  "id": "2296fd3d-44fc-4ce2-b5c9-3e8e8568bfc7"
+}
