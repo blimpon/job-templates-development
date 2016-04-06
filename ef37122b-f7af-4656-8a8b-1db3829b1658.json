@@ -1,0 +1,73 @@
+{
+  "title": "Make a paper plane",
+  "roles": [
+    {
+      "name": "customer",
+      "key": "186adf35-55b9-c408-b972-aaf560182bd1"
+    },
+    {
+      "name": "fixer",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "admin": true,
+      "key": "b30faa5b-ea21-dd92-dde2-bb06782ed6a3"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pay",
+      "completeRole": "customer",
+      "order": 1,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Payment",
+          "type": "pay",
+          "totalUSD": 19,
+          "required": true,
+          "key": "e740e58f-4bbd-b29b-6b56-49dcf2c9f4c8"
+        }
+      ],
+      "key": "b3003e33-5ddd-fbe2-6d45-878c1d8129ec"
+    },
+    {
+      "title": "Do the work",
+      "completeRole": "fixer",
+      "order": 2,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Has the work been done?",
+          "type": "confirmation",
+          "required": true,
+          "key": "53834bb5-94fb-f6c0-05c7-969c213ba1d5"
+        }
+      ],
+      "key": "8f09ace3-d762-9b34-4203-ea02ff04389b"
+    },
+    {
+      "title": "Rate",
+      "completeRole": "customer",
+      "order": 3,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "How happy are you with the work completed?",
+          "type": "faceRating",
+          "for": "fixer",
+          "required": true,
+          "key": "7f412f39-ea4a-717b-9a77-61969c4cf193"
+        },
+        {
+          "order": 2,
+          "title": "Payout fixer",
+          "type": "payout",
+          "role": "fixer",
+          "percentageOfBalance": 100,
+          "key": "1caef596-d34b-83f2-447a-429479a166e7"
+        }
+      ],
+      "key": "af8a7e22-921a-70ea-560b-47117604d9f3"
+    }
+  ],
+  "id": "ef37122b-f7af-4656-8a8b-1db3829b1658"
+}
