@@ -1,5 +1,5 @@
 {
-  "title": "Make a paper plane",
+  "title": "Make a paper plane {{ step1.stepItem1 }}",
   "roles": [
     {
       "name": "customer",
