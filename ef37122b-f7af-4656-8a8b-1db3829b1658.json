@@ -22,7 +22,7 @@
           "order": 1,
           "title": "Payment",
           "type": "pay",
-          "totalUSD": 19,
+          "totalUSD": "219",
           "required": true,
           "key": "e740e58f-4bbd-b29b-6b56-49dcf2c9f4c8"
         }
