@@ -1,0 +1,75 @@
+{
+  "title": "New SEO job",
+  "description": "undefined",
+  "collectionId": "61bf54bf-c6b0-45f0-bc2b-fab0b2b2a902",
+  "roles": [
+    {
+      "name": "customer",
+      "key": "879431ba-9797-f1f4-df37-573198eb9e1c"
+    },
+    {
+      "name": "fixer",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "admin": true,
+      "key": "fa0d0b7d-cbde-81d4-599b-dc46a06acad3"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pay",
+      "completeRole": "customer",
+      "order": 1,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Payment",
+          "type": "pay",
+          "totalUSD": 180,
+          "required": true,
+          "key": "96bd0502-fb60-e14c-c906-2d29226962ce"
+        }
+      ],
+      "key": "a423b0af-5a79-cd48-f325-e710c0c635e9"
+    },
+    {
+      "title": "Do the work",
+      "completeRole": "fixer",
+      "order": 2,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Has the work been done?",
+          "type": "confirmation",
+          "required": true,
+          "key": "30a00e4b-849e-9119-0f91-7a9b42c50911"
+        }
+      ],
+      "key": "e7ab7ffc-3cf3-4d01-ef34-d5c354947628"
+    },
+    {
+      "title": "Rate",
+      "completeRole": "customer",
+      "order": 3,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "How happy are you with the work completed?",
+          "type": "faceRating",
+          "for": "fixer",
+          "required": true,
+          "key": "c440b67e-8eab-6425-f018-e4de8e668f5c"
+        },
+        {
+          "order": 2,
+          "title": "Payout fixer",
+          "type": "payout",
+          "role": "fixer",
+          "percentageOfBalance": 100,
+          "key": "374ca2a0-1d5b-535f-2cd2-2d9cf8375bc0"
+        }
+      ],
+      "key": "8e099e25-e48f-a99a-fc77-c5ad8899b04a"
+    }
+  ],
+  "id": "2cbc4967-6405-448b-bf63-643961790845"
+}
