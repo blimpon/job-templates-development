@@ -1,0 +1,74 @@
+{
+  "roles": [
+    {
+      "name": "customer",
+      "key": "3fe660cf-e1da-7a12-be67-6f025c2255d1"
+    },
+    {
+      "name": "fixer",
+      "defaultUser": "ae63cfdc-6011-46ee-b26e-4c6a9435c6a0",
+      "admin": true,
+      "key": "7743b92e-27e6-65f5-ff6b-d990f744848e"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pay",
+      "completeRole": "customer",
+      "order": 1,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Payment",
+          "type": "pay",
+          "totalUSD": 180,
+          "required": true,
+          "key": "953b19bf-39f6-07a9-1e75-a65fbd8b835c"
+        }
+      ],
+      "key": "e79d137c-552f-4171-c53a-b9cce83e5e7a"
+    },
+    {
+      "title": "Do the work",
+      "completeRole": "fixer",
+      "order": 2,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Has the work been done?",
+          "type": "confirmation",
+          "required": true,
+          "key": "d02b4a86-d49b-bf0b-3adf-13cbcc32a1d8"
+        }
+      ],
+      "key": "06e2ec03-e532-c64b-7cd2-4bc3e1ee4419"
+    },
+    {
+      "title": "Rate",
+      "completeRole": "customer",
+      "order": 3,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "How happy are you with the work completed?",
+          "type": "faceRating",
+          "for": "fixer",
+          "required": true,
+          "key": "c2b6749f-bd8d-856b-24cb-967fd495a0e1"
+        },
+        {
+          "order": 2,
+          "title": "Payout fixer",
+          "type": "payout",
+          "role": "fixer",
+          "percentageOfBalance": 100,
+          "key": "4100f86e-fd35-b332-7579-16ab0bd6810b"
+        }
+      ],
+      "key": "6c864d89-1c2a-9aaa-225e-4a49f61f5814"
+    }
+  ],
+  "description": "\nhttp://websiterescues.com/\nDon't redesign your store, rescue it\n\nLet Us Fix Your Shopify Store & Grow Your Business\nTell me if this sounds familiar— You have a website. It's not terribly broken. It works...technically. It's fine, I guess... It's just a little old. You're worried because it's not bringing in customers, leads, or sales the way it used to. You can tell it's no longer up to date and you are falling behind your competitors. People are complaining to you that the site is slow and takes too long to load, and you can see the costs of that in your sales.\n\nThis is not your expertise. You know you need to make a change, but you can't put your finger on what. Your failing website also means you don't have the money for a pricey redesign or to engage a technical expert in months of work. You need someone to give it an emergency rescue. Fast.\n\nIf the above sounds familiar, it's time to restore your website and your business.",
+  "title": "asdasd",
+  "id": "6deedeaf-5a02-47dc-87c0-f6982153f291"
+}
