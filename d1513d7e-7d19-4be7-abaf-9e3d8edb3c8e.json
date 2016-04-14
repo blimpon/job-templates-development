@@ -3,13 +3,14 @@
   "roles": [
     {
       "name": "customer",
-      "key": "de08c992-e5aa-63df-154d-44f2db997b1a"
+      "key": "de08c992-e5aa-63df-154d-44f2db997b1a",
+      "order": 1
     },
     {
+      "key": "2483375f-e6c3-193e-2558-e0966cade2da",
       "name": "fixer",
-      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
       "admin": true,
-      "key": "2483375f-e6c3-193e-2558-e0966cade2da"
+      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab"
     }
   ],
   "steps": [
