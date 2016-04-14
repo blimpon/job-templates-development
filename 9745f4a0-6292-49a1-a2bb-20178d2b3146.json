@@ -1,0 +1,75 @@
+{
+  "collectionId": "5a0f2fb5-7e78-4bd7-8e29-32d6bc747a14",
+  "roles": [
+    {
+      "name": "customer",
+      "key": "6743aea8-d003-8286-7a83-fefd32b94357"
+    },
+    {
+      "name": "fixer",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "admin": true,
+      "key": "8c9672a4-593b-131e-104d-7f484203dbd5"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pay",
+      "completeRole": "customer",
+      "order": 1,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Payment",
+          "type": "pay",
+          "totalUSD": 180,
+          "required": true,
+          "key": "c99f6ad5-0454-abcc-4fc2-d0b498bab07c"
+        }
+      ],
+      "key": "f44d5bdf-24e4-6dbb-f500-599ac9938a6e"
+    },
+    {
+      "title": "Do the work",
+      "completeRole": "fixer",
+      "order": 2,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Has the work been done?",
+          "type": "confirmation",
+          "required": true,
+          "key": "c6e27671-9066-9c86-8ec7-b18d5fbb9865"
+        }
+      ],
+      "key": "644f84e4-b7fc-0ecc-3d98-77e2a7582a50"
+    },
+    {
+      "title": "Rate",
+      "completeRole": "customer",
+      "order": 3,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "How happy are you with the work completed?",
+          "type": "faceRating",
+          "for": "fixer",
+          "required": true,
+          "key": "e1cbecf8-34bc-8677-9f62-e3e67ef6bf90"
+        },
+        {
+          "order": 2,
+          "title": "Payout fixer",
+          "type": "payout",
+          "role": "fixer",
+          "percentageOfBalance": 100,
+          "key": "878bed46-03a1-3670-3083-c23b7e0dfecb"
+        }
+      ],
+      "key": "c24236f8-a2e2-55bd-7ba6-432547070b86"
+    }
+  ],
+  "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+  "title": "Test",
+  "id": "9745f4a0-6292-49a1-a2bb-20178d2b3146"
+}
