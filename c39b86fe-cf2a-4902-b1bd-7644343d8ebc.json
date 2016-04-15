@@ -167,5 +167,6 @@
       "order": 8
     }
   ],
-  "description": "Setting up SSL encryption will help to add a new layer of security to your storefront. Displaying the padlock in the browser besides your store name will also help to build customer trust in your store."
+  "description": "Setting up SSL encryption will help to add a new layer of security to your storefront. Displaying the padlock in the browser besides your store name will also help to build customer trust in your store.",
+  "collectionId": "61bf54bf-c6b0-45f0-bc2b-fab0b2b2a902"
 }
