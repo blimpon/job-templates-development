@@ -1,5 +1,5 @@
 {
-  "title": "Complete <strong>SEO</strong> fixes {{ step2.stepItem1 }}",
+  "title": "Complete SEO fixes {{ step2.stepItem1 }}",
   "roles": [
     {
       "name": "fixer",
