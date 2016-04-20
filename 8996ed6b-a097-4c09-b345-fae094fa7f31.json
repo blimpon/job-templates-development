@@ -1,6 +1,5 @@
 {
   "title": "new seo",
-  "collectionId": "61bf54bf-c6b0-45f0-bc2b-fab0b2b2a902",
   "roles": [
     {
       "name": "customer",
@@ -70,5 +69,6 @@
       "key": "ceccdcfb-0545-b9f1-07a1-87d30767913c"
     }
   ],
-  "id": "8996ed6b-a097-4c09-b345-fae094fa7f31"
+  "id": "8996ed6b-a097-4c09-b345-fae094fa7f31",
+  "description": null
 }
