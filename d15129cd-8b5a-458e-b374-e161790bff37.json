@@ -1,5 +1,5 @@
 {
-  "title": "Three blog posts - not my job 2",
+  "title": "Three blog posts",
   "roles": [
     {
       "key": "692965f0-5baa-897c-02e4-b2fd891de67d",
@@ -300,5 +300,6 @@
     }
   ],
   "description": "EDIT 3: Structure your HTML (website code) properly and ensuring the right keywords are used in the right places is essential to ensure you have the best chance to rank well in Google, Bing and other search engines.\n\nPage titles, meta descriptions, headings, ALT tags all have a part to play in this. With many e-commerce and website platforms like Shopify, Bigcommerce and Wordpress lots of this can be automatically generated with the right code in place. \n\nYour site template code will be fixed to take full advantage of this and correct HTML errors (things like duplicate title tags). You don't need any programming experience. You simply answer a few questions about the keywords you'd like to target. \n\nIf your site isn't in English that's okay too. As long as you can provide keywords in your language and message your fixer in English we can handle all of the coding. Spanish, French, Danish, Thai and other customers have successfully completed this job.",
-  "jobTemplateImageId": "1de9c9da-d880-4122-8c1d-05b9144aa0d8"
+  "jobTemplateImageId": "1de9c9da-d880-4122-8c1d-05b9144aa0d8",
+  "collectionId": "61bf54bf-c6b0-45f0-bc2b-fab0b2b2a902"
 }
