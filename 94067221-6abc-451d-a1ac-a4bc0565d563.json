@@ -34,6 +34,20 @@
       ],
       "key": "406c1d7e-1211-d562-4165-ed2c260a432e",
       "reviewRole": "fixer"
+    },
+    {
+      "key": "a1bb7cdf-fa9a-4e5b-48c5-79b39e50857e",
+      "title": "Prepare quote",
+      "order": 2,
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "key": "ec3219f5-15d1-70ba-ecf4-0ea81e023216",
+          "title": "Quote prepared and sent",
+          "order": 1,
+          "type": "confirmation"
+        }
+      ]
     }
   ],
   "description": "Request a quote",
