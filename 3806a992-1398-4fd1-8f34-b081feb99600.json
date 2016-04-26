@@ -13,59 +13,32 @@
   ],
   "steps": [
     {
-      "title": "Pay",
-      "completeRole": "customer",
+      "key": "45501ffd-bab7-e2f6-19e0-a9af38951035",
+      "title": "Send message",
       "order": 1,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": 0,
-          "required": true,
-          "key": "e7feb13d-5d26-21fb-0292-1a7316a95c85"
-        }
-      ],
-      "key": "6e3cb33c-a307-70bd-50e3-fe1457622278"
-    },
-    {
-      "title": "Do the work",
-      "completeRole": "fixer",
-      "order": 2,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Has the work been done?",
-          "type": "confirmation",
-          "required": true,
-          "key": "6d1472a2-73a9-bed4-25c4-674075dc504c"
-        }
-      ],
-      "key": "65bcabaa-4318-6d2c-60f5-f38371677dd5"
-    },
-    {
-      "title": "Rate",
       "completeRole": "customer",
-      "order": 3,
+      "reviewRole": "fixer",
       "stepItems": [
         {
-          "order": 1,
-          "title": "How happy are you with the work completed?",
-          "type": "faceRating",
-          "for": "fixer",
-          "required": true,
-          "key": "8d96dc7d-3275-0840-87de-fd83d79a61b1"
-        },
-        {
-          "order": 2,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "4bb72411-74a9-188f-ad58-62ea898746d3"
+          "key": "3fb50b87-abf9-2e6c-f45f-784f3e4db073",
+          "title": "Your message",
+          "order": 1
         }
-      ],
-      "key": "7eeac9d1-753f-7f05-b703-d5779eb94bd3"
+      ]
+    },
+    {
+      "key": "d8578155-38f8-c675-bfd3-5091f5a53e47",
+      "title": "Reply",
+      "order": 2,
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "key": "d041bf19-6fbc-0b52-d616-19b45f4ca680",
+          "title": "Replied to message",
+          "order": 1,
+          "type": "confirmation"
+        }
+      ]
     }
   ],
   "description": "Get in touch",
