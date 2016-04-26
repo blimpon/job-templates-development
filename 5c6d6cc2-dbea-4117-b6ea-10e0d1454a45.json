@@ -31,7 +31,7 @@
     {
       "title": "Do the work",
       "completeRole": "fixer",
-      "order": 2,
+      "order": 3,
       "stepItems": [
         {
           "order": 1,
@@ -46,7 +46,7 @@
     {
       "title": "Rate",
       "completeRole": "customer",
-      "order": 3,
+      "order": 4,
       "stepItems": [
         {
           "order": 1,
@@ -66,6 +66,23 @@
         }
       ],
       "key": "c8dbd581-950f-c4fb-5a29-35c0c9a7f1b3"
+    },
+    {
+      "key": "29dda5b4-32ba-4617-cbd2-312e374f35ba",
+      "title": "Email",
+      "order": 2,
+      "stepItems": [
+        {
+          "key": "ac435249-c359-0168-74a8-45a5a1016e7d",
+          "title": "Send Email",
+          "order": 1,
+          "type": "sendemail",
+          "to": "customer",
+          "subject": "Email Step",
+          "body": "Here is the email"
+        }
+      ],
+      "completeRole": "customer"
     }
   ],
   "description": "Moo",
