@@ -13,59 +13,27 @@
   ],
   "steps": [
     {
-      "title": "Pay",
+      "title": "Request a quote",
       "completeRole": "customer",
       "order": 1,
       "stepItems": [
         {
           "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": 0,
+          "title": "What are you looking for?",
+          "type": "text",
           "required": true,
-          "key": "fd52f524-bfc2-ddbb-4eb9-6287d165252a"
-        }
-      ],
-      "key": "e36214dc-871b-9842-5737-46a240c8d31c"
-    },
-    {
-      "title": "Do the work",
-      "completeRole": "fixer",
-      "order": 2,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Has the work been done?",
-          "type": "confirmation",
-          "required": true,
-          "key": "21fcbdd9-2ae9-c2ba-e399-f3e8ad83e35a"
-        }
-      ],
-      "key": "406c1d7e-1211-d562-4165-ed2c260a432e"
-    },
-    {
-      "title": "Rate",
-      "completeRole": "customer",
-      "order": 3,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "How happy are you with the work completed?",
-          "type": "faceRating",
-          "for": "fixer",
-          "required": true,
-          "key": "76ba4813-de05-c559-459b-712cbd5ba0b6"
+          "key": "21fcbdd9-2ae9-c2ba-e399-f3e8ad83e35a",
+          "description": "Describe what you want in as much detail as possible. Detailed requests will get faster and better quality replies"
         },
         {
+          "key": "a52453e9-508e-a823-5e42-480e2aa71492",
+          "title": "What's your budget?",
           "order": 2,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "e8671d1f-dfa7-63bd-2d69-9e66cf4fb445"
+          "description": "A rough idea of how much you're looking to spend helps us to see if we can deliver what you want within that"
         }
       ],
-      "key": "236d13f9-3051-5bf2-ab12-61246fa3354f"
+      "key": "406c1d7e-1211-d562-4165-ed2c260a432e",
+      "reviewRole": "fixer"
     }
   ],
   "description": "Request a quote",
