@@ -31,7 +31,7 @@
     {
       "title": "Do the work",
       "completeRole": "fixer",
-      "order": 2,
+      "order": 3,
       "stepItems": [
         {
           "order": 1,
@@ -46,7 +46,7 @@
     {
       "title": "Rate",
       "completeRole": "customer",
-      "order": 3,
+      "order": 4,
       "stepItems": [
         {
           "order": 1,
@@ -66,6 +66,23 @@
         }
       ],
       "key": "a2552169-39fe-b522-feb1-6c6f1be0f2a3"
+    },
+    {
+      "key": "38c58c4b-c00a-8c85-6dbc-891377430c42",
+      "title": "Emails",
+      "order": 2,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "d6825fbc-4fd1-9e52-55dc-0c6afbd4ba12",
+          "title": "Send email",
+          "order": 1,
+          "type": "sendemail",
+          "to": "customer",
+          "subject": "Badgers!",
+          "body": "sdfdsf sdfsd fsdfsdf"
+        }
+      ]
     }
   ],
   "description": "Emails!",
