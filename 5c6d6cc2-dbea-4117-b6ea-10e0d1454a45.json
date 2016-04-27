@@ -2,13 +2,15 @@
   "roles": [
     {
       "name": "customer",
-      "key": "5eb15375-5094-99eb-3dd8-57bedb45e85b"
+      "key": "5eb15375-5094-99eb-3dd8-57bedb45e85b",
+      "order": 1
     },
     {
       "name": "fixer",
       "defaultUser": "97a84f0b-9e38-497d-bf9d-1589418ee5fd",
       "admin": true,
-      "key": "bcdcb4d9-fc62-dfde-c0ea-907ed51fc2de"
+      "key": "bcdcb4d9-fc62-dfde-c0ea-907ed51fc2de",
+      "order": 2
     }
   ],
   "steps": [
@@ -87,6 +89,5 @@
   ],
   "description": "Moo",
   "title": "Job With Email Badger",
-  "id": "5c6d6cc2-dbea-4117-b6ea-10e0d1454a45",
-  "collectionId": "1ec3e8b4-d86f-4f70-b84d-3eb4bea30a28"
+  "id": "5c6d6cc2-dbea-4117-b6ea-10e0d1454a45"
 }
