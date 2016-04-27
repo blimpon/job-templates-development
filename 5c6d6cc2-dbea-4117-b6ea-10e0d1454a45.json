@@ -11,6 +11,11 @@
       "admin": true,
       "key": "bcdcb4d9-fc62-dfde-c0ea-907ed51fc2de",
       "order": 2
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "6201ca6a-1b17-4591-98e7-db4245093ed6",
+      "key": "00e12085-c08f-474e-beac-282eda432450"
     }
   ],
   "steps": [
@@ -89,6 +94,5 @@
   ],
   "description": "Moo",
   "title": "Job With Email Badger",
-  "id": "5c6d6cc2-dbea-4117-b6ea-10e0d1454a45",
-  "collectionId": "1ec3e8b4-d86f-4f70-b84d-3eb4bea30a28"
+  "id": "5c6d6cc2-dbea-4117-b6ea-10e0d1454a45"
 }
