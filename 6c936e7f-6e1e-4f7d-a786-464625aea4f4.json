@@ -24,6 +24,15 @@
           "totalUSD": 180,
           "required": true,
           "key": "5408f19a-4d86-95d8-2355-4e74fab0ade1"
+        },
+        {
+          "key": "39deb733-fe22-cb89-ba65-b09fd4848ed9",
+          "title": "Pay with description",
+          "order": 2,
+          "type": "pay",
+          "totalUSD": "99",
+          "description": "With description with description with description with description with description with description with description with description with description with description with description with description with description with description with description with description with description",
+          "help": "With help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help"
         }
       ],
       "key": "f72d238a-632e-1ab2-f2f9-dcb39d4b9deb"
