@@ -38,7 +38,7 @@
       "order": 1
     },
     {
-      "title": "Do the work",
+      "title": "Confirmation",
       "completeRole": "fixer",
       "stepItems": [
         {
@@ -47,6 +47,15 @@
           "required": true,
           "key": "03d8ed3f-f1b5-c103-5b09-710b6603355e",
           "order": 1
+        },
+        {
+          "key": "8f6e0d50-6259-17cb-0b8e-f82e2d1ddc77",
+          "title": "With a description / help?",
+          "order": 2,
+          "type": "confirmation",
+          "required": false,
+          "description": "With description with description with description with description with description with description with description with description with description with description with description with description with description with description with description",
+          "help": "With help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help"
         }
       ],
       "key": "452ff4f9-8f7e-8ef4-25bd-34d7115bb4fc",
