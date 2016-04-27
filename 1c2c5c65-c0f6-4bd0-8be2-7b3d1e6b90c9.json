@@ -38,7 +38,22 @@
           "title": "Has the work been done?",
           "type": "confirmation",
           "required": true,
-          "key": "17a96a97-ccbb-ea2f-c128-372770eec0e0"
+          "key": "17a96a97-ccbb-ea2f-c128-372770eec0e0",
+          "description": "With description with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description ",
+          "help": "With help with help With help with help With help with help With help with help With help with help With help with help With help with help With help with help With help with help With help with help With help with help With help with help With help with help "
+        },
+        {
+          "key": "ab1cf922-2a12-877a-d949-4aee1368a400",
+          "title": "Simple confirmation",
+          "order": 2,
+          "type": "confirmation"
+        },
+        {
+          "key": "53a8bece-cbfc-f7d5-7a42-a8f0b9ccbcf8",
+          "title": "Confirmation not required",
+          "order": 3,
+          "type": "confirmation",
+          "required": false
         }
       ],
       "key": "40a559b9-7b22-93e3-6aee-024acfc71f71"
