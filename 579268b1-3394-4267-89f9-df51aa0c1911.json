@@ -59,11 +59,12 @@
         }
       ],
       "key": "452ff4f9-8f7e-8ef4-25bd-34d7115bb4fc",
-      "order": 2
+      "order": 2,
+      "reviewRole": "customer"
     },
     {
       "title": "Rate",
-      "completeRole": "customer",
+      "completeRole": "fixer",
       "stepItems": [
         {
           "title": "How happy are you with the work completed?",
@@ -74,16 +75,46 @@
           "order": 1
         },
         {
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "0c0141c8-f3a0-4675-d414-8b57b02e6ee4",
-          "order": 2
+          "key": "a3b8fa4a-7d01-d7f9-5ab5-36e8798e6160",
+          "title": "Rating with description / help?",
+          "order": 2,
+          "type": "faceRating",
+          "required": false,
+          "for": "fixer",
+          "description": " with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description ",
+          "help": " with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help"
         }
       ],
       "key": "9ff16fc3-815f-8443-54c7-657094780940",
-      "order": 3
+      "order": 3,
+      "reviewRole": "customer"
+    },
+    {
+      "key": "6e1de178-69a7-d1ef-5419-389d11654f33",
+      "title": "Payout",
+      "order": 4,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "a4b85012-b107-8450-6d9c-9a8aeb3775aa",
+          "title": "Payout fixer",
+          "order": 1,
+          "type": "payout",
+          "percentageOfBalance": "100",
+          "role": "fixer"
+        },
+        {
+          "key": "3f705179-4c2e-4fd9-1eb6-7ef346fb52aa",
+          "title": "Payout fixer with description",
+          "order": 2,
+          "type": "payout",
+          "required": false,
+          "percentageOfBalance": "100",
+          "role": "fixer",
+          "description": " with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description  with description ",
+          "help": "with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help with help "
+        }
+      ]
     }
   ],
   "title": "All step item types",
