@@ -257,7 +257,7 @@
         }
       ],
       "key": "e8ebf207-41ff-1589-aa38-3b4239e47808",
-      "order": 9
+      "order": 8
     },
     {
       "title": "Complete the work",
@@ -296,7 +296,7 @@
     {
       "key": "b34a3eea-d1d6-3cbc-2576-a058bb98d27b",
       "title": "Ending Follow-up call",
-      "order": 8,
+      "order": 9,
       "completeRole": "fixer",
       "stepItems": [
         {
