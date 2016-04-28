@@ -1,15 +1,14 @@
 {
-  "collectionId": "511f2978-c1dd-4e52-9194-52ec13a21e2c",
   "roles": [
     {
       "name": "customer",
       "key": "654f9d05-5cd2-6e22-04a6-cd3046a38d0a"
     },
     {
+      "key": "4dfb6427-4105-6c32-fb13-50f9eef76e17",
       "name": "fixer",
-      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
       "admin": true,
-      "key": "4dfb6427-4105-6c32-fb13-50f9eef76e17"
+      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab"
     }
   ],
   "steps": [
