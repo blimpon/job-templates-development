@@ -41,13 +41,7 @@
       "completeRole": "fixer",
       "order": 3,
       "stepItems": [
-        {
-          "order": 1,
-          "title": "Has the work been done?",
-          "type": "confirmation",
-          "required": true,
-          "key": "4c378b09-4aba-b55a-4f39-fe71fe7116b5"
-        }
+
       ],
       "key": "583faaa9-1fbd-5940-3fa9-1afe74c279f3"
     },
