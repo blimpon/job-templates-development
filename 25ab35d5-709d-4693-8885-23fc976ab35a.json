@@ -11,6 +11,12 @@
       "admin": true,
       "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab",
       "order": 2
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "key": "2ab44020-73e1-4daa-9100-7ecf03ad700f",
+      "admin": true
     }
   ],
   "steps": [
