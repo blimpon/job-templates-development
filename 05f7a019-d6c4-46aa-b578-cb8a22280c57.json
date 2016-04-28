@@ -291,21 +291,7 @@
         }
       ],
       "key": "d7e01f8f-52ee-2991-ab0a-d4c31d57e34f",
-      "order": 10
-    },
-    {
-      "key": "b34a3eea-d1d6-3cbc-2576-a058bb98d27b",
-      "title": "Ending Follow-up call",
-      "order": 9,
-      "completeRole": "fixer",
-      "stepItems": [
-        {
-          "key": "fc2db3b0-9f3d-d631-a17c-4bd68d4faf36",
-          "title": "Call the customer",
-          "order": 1,
-          "type": "confirmation"
-        }
-      ]
+      "order": 9
     }
   ],
   "description": "<p>Structure your <strong>HTML</strong> (website code) properly and ensuring the right keywords are used in the right places is essential to ensure you have the best chance to rank well in Google, Bing and other search engines.</p>\n\n<p>Page titles, meta descriptions, headings, ALT tags all have a part to play in this. With many e-commerce and website platforms like Shopify, Bigcommerce and Wordpress lots of this can be automatically generated with the right code in place.</p> \n\n<p>Your site template code will be fixed to take full advantage of this and correct HTML errors (things like duplicate title tags). You don't need any programming experience. You simply answer a few questions about the keywords you'd like to target.</p>\n\n<p>If your site isn't in English that's okay too. As long as you can provide keywords in your language and message your fixer in English we can handle all of the coding. Spanish, French, Danish, Thai and other customers have successfully completed this job.</p>",
