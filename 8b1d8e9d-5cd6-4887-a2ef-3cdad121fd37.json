@@ -2,46 +2,73 @@
   "roles": [
     {
       "name": "customer",
-      "key": "ccecb93b-4c31-4f4a-89fc-aea944609c9b"
+      "key": "1de6904e-acb5-b68d-104f-e34d24eb9cc9"
     },
     {
       "name": "fixer",
       "defaultUser": "3c58b4dd-60f4-4bac-b027-e559cc1ef3b7",
       "admin": true,
-      "key": "9e16e4f5-dfa4-4b5d-a211-1ddf2f3e5bec"
+      "key": "cc2f78e0-d9f8-65ac-37bb-d8ec4caf6aaf"
     }
   ],
   "steps": [
     {
-      "key": "1bd3ce8c-2916-4244-a113-7f5909cd7ee1",
-      "title": "Send message",
-      "order": 1,
+      "title": "Pay",
       "completeRole": "customer",
-      "reviewRole": "fixer",
+      "order": 1,
       "stepItems": [
         {
-          "key": "db23833e-0fd1-4774-8ff0-b2004fbdef78",
-          "title": "Your message",
-          "order": 1
+          "order": 1,
+          "title": "Payment",
+          "type": "pay",
+          "totalUSD": 180,
+          "required": true,
+          "key": "9f987ca0-cc29-e412-4402-4445c1bb2d19"
         }
-      ]
+      ],
+      "key": "103324e8-8430-4a1a-d9ef-fccfbfd2edda"
     },
     {
-      "key": "d10ed98a-8f0b-43de-9039-167012622f9a",
-      "title": "Reply",
-      "order": 2,
+      "title": "Do the work",
       "completeRole": "fixer",
+      "order": 2,
       "stepItems": [
         {
-          "key": "fce4d101-50b8-49ca-b8ce-bf53621316f8",
-          "title": "Replied to message",
           "order": 1,
-          "type": "confirmation"
+          "title": "Has the work been done?",
+          "type": "confirmation",
+          "required": true,
+          "key": "ffd2979e-98d0-4254-7883-5d5acd906238"
         }
-      ]
+      ],
+      "key": "e7c9e8e5-9e13-ae5c-522d-98733f774141"
+    },
+    {
+      "title": "Rate",
+      "completeRole": "customer",
+      "order": 3,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "How happy are you with the work completed?",
+          "type": "faceRating",
+          "for": "fixer",
+          "required": true,
+          "key": "688d51d4-2149-ee15-c614-43d35960319b"
+        },
+        {
+          "order": 2,
+          "title": "Payout fixer",
+          "type": "payout",
+          "role": "fixer",
+          "percentageOfBalance": 100,
+          "key": "5be57be9-3302-f6b6-bfca-e92f3bd94642"
+        }
+      ],
+      "key": "45b6f172-8410-8c37-0e40-91c230c7fe6f"
     }
   ],
-  "description": "Get in touch",
-  "title": "Contact",
-  "id": "00b4b555-628c-49c9-ac2e-6f429dc0bd3f"
+  "title": "New job template",
+  "description": null,
+  "id": "8b1d8e9d-5cd6-4887-a2ef-3cdad121fd37"
 }
