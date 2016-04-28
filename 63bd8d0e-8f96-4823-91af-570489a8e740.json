@@ -31,7 +31,7 @@
     {
       "title": "Do the work",
       "completeRole": "fixer",
-      "order": 2,
+      "order": 3,
       "stepItems": [
         {
           "order": 1,
@@ -46,7 +46,7 @@
     {
       "title": "Rate",
       "completeRole": "customer",
-      "order": 3,
+      "order": 4,
       "stepItems": [
         {
           "order": 1,
@@ -70,7 +70,7 @@
     {
       "key": "61b3f0a1-407f-7f4f-9d0b-d2d9dc70940f",
       "title": "step forward",
-      "order": 4,
+      "order": 2,
       "completeRole": "fixer",
       "stepItems": [
         {
