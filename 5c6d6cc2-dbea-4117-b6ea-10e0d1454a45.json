@@ -11,11 +11,6 @@
       "admin": true,
       "key": "bcdcb4d9-fc62-dfde-c0ea-907ed51fc2de",
       "order": 2
-    },
-    {
-      "name": "marketplace",
-      "defaultUser": "6201ca6a-1b17-4591-98e7-db4245093ed6",
-      "key": "e2eae685-5f06-4bb7-a50c-9e3742896f21"
     }
   ],
   "steps": [
@@ -65,15 +60,6 @@
         },
         {
           "order": 2,
-          "title": "Payout marketplace",
-          "type": "payout",
-          "role": "marketplace",
-          "marketplace": true,
-          "percentageOfBalance": 20,
-          "key": "1e42adf2-2bd0-46ca-8218-41c59cc8060b"
-        },
-        {
-          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
@@ -99,6 +85,44 @@
         }
       ],
       "completeRole": "customer"
+    },
+    {
+      "key": "6b90afd0-4bd3-7d52-abd7-6a01c43decec",
+      "title": "Pay 2",
+      "order": 5,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "e18303b4-11f5-9ab9-9cc2-c920691bce92",
+          "title": "Payment",
+          "order": 1,
+          "type": "pay",
+          "totalUSD": "50"
+        }
+      ]
+    },
+    {
+      "key": "d547af65-d162-776c-c60a-3a5eb69461b1",
+      "title": "Payout",
+      "order": 6,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "11c4a4df-c62c-95b7-7d46-8fa9ad8a96a1",
+          "title": "All good?",
+          "order": 1,
+          "type": "confirmation",
+          "description": "All good?"
+        },
+        {
+          "key": "9426ac99-c4f0-4147-74b7-8fcccc9b34a4",
+          "title": "Payout",
+          "order": 2,
+          "type": "payout",
+          "percentageOfBalance": "100",
+          "role": "fixer"
+        }
+      ]
     }
   ],
   "description": "Moo",
