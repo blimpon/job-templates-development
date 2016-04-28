@@ -11,12 +11,6 @@
       "admin": true,
       "key": "bcdcb4d9-fc62-dfde-c0ea-907ed51fc2de",
       "order": 2
-    },
-    {
-      "name": "marketplace",
-      "defaultUser": "6201ca6a-1b17-4591-98e7-db4245093ed6",
-      "key": "2caab4c3-dbbf-4834-9400-cff05efdd335",
-      "admin": true
     }
   ],
   "steps": [
@@ -66,15 +60,6 @@
         },
         {
           "order": 2,
-          "title": "Payout marketplace",
-          "type": "payout",
-          "role": "marketplace",
-          "marketplace": true,
-          "percentageOfBalance": 20,
-          "key": "036354a4-bb93-4756-bf75-a286abcdb914"
-        },
-        {
-          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
@@ -130,18 +115,9 @@
           "description": "All good?"
         },
         {
-          "order": 2,
-          "title": "Payout marketplace",
-          "type": "payout",
-          "role": "marketplace",
-          "marketplace": true,
-          "percentageOfBalance": 20,
-          "key": "8e360570-5d15-45b0-9e81-756c47f5d393"
-        },
-        {
           "key": "9426ac99-c4f0-4147-74b7-8fcccc9b34a4",
           "title": "Payout",
-          "order": 3,
+          "order": 2,
           "type": "payout",
           "percentageOfBalance": "100",
           "role": "fixer"
@@ -151,5 +127,6 @@
   ],
   "description": "Moo",
   "title": "Job With Email Badger",
-  "id": "5c6d6cc2-dbea-4117-b6ea-10e0d1454a45"
+  "id": "5c6d6cc2-dbea-4117-b6ea-10e0d1454a45",
+  "collectionId": "1ec3e8b4-d86f-4f70-b84d-3eb4bea30a28"
 }
