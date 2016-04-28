@@ -11,12 +11,6 @@
       "admin": true,
       "key": "bcdcb4d9-fc62-dfde-c0ea-907ed51fc2de",
       "order": 2
-    },
-    {
-      "name": "marketplace",
-      "defaultUser": "6201ca6a-1b17-4591-98e7-db4245093ed6",
-      "key": "d1dd3e86-f816-4395-8e95-a4e4e168d4bf",
-      "admin": true
     }
   ],
   "steps": [
@@ -66,15 +60,6 @@
         },
         {
           "order": 2,
-          "title": "Payout marketplace",
-          "type": "payout",
-          "role": "marketplace",
-          "marketplace": true,
-          "percentageOfBalance": 20,
-          "key": "f9870f8d-ebce-42ed-af01-b4bb4e2ebbf7"
-        },
-        {
-          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
@@ -130,17 +115,16 @@
           "description": "All good?"
         },
         {
-          "order": 2,
-          "title": "Payout marketplace",
-          "type": "payout",
-          "role": "marketplace",
-          "marketplace": true,
-          "percentageOfBalance": 20,
-          "key": "ebf83ba3-e6af-474d-a19e-65c3316ae0ab"
-        },
-        {
           "key": "9426ac99-c4f0-4147-74b7-8fcccc9b34a4",
           "title": "Payout",
+          "order": 2,
+          "type": "payout",
+          "percentageOfBalance": "50",
+          "role": "fixer"
+        },
+        {
+          "key": "429b936a-7fe9-27b6-2116-75d9c68e1f54",
+          "title": "Payout 2",
           "order": 3,
           "type": "payout",
           "percentageOfBalance": "100",
