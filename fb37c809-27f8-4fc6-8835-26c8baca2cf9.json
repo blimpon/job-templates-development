@@ -66,6 +66,19 @@
         }
       ],
       "key": "67026ccb-82ab-b4cb-57f5-f0c2f5afb7fc"
+    },
+    {
+      "key": "7d636ca2-1a39-7b82-ec1f-dfa02238d65a",
+      "title": "new step",
+      "order": 4,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "f2b07c96-f322-3d2b-5811-26974e02d23d",
+          "title": "again",
+          "order": 1
+        }
+      ]
     }
   ],
   "title": "something blue",
