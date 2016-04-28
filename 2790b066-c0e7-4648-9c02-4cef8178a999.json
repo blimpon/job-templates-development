@@ -66,6 +66,20 @@
         }
       ],
       "key": "8df73b30-06c3-4571-bcfe-336495c49e50"
+    },
+    {
+      "key": "4c1e455f-de5b-cd8b-170e-b81a9867587d",
+      "title": "new step",
+      "order": 4,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "ac5074a7-0d49-bcea-df49-52a71f1afcd4",
+          "title": "something to do",
+          "order": 1,
+          "type": "confirmation"
+        }
+      ]
     }
   ],
   "title": "My First Job",
