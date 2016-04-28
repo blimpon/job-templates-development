@@ -3,19 +3,15 @@
   "roles": [
     {
       "name": "customer",
-      "key": "c01d0b28-d5a1-85db-7da8-0d6c80952dbc"
+      "key": "c01d0b28-d5a1-85db-7da8-0d6c80952dbc",
+      "order": 1
     },
     {
+      "key": "608cb3f4-73cc-898e-17ad-b760835f7340",
       "name": "fixer",
       "admin": true,
-      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
-      "key": "608cb3f4-73cc-898e-17ad-b760835f7340"
-    },
-    {
-      "name": "project manager",
-      "admin": true,
-      "defaultUser": "d86b9ddf-0461-4919-9b98-050fa59ba03d",
-      "key": "00d61144-4f77-68b4-259e-a9162a9f4a72"
+      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab",
+      "order": 2
     }
   ],
   "steps": [
