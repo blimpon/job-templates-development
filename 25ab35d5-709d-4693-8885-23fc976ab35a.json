@@ -11,6 +11,12 @@
       "admin": true,
       "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab",
       "order": 2
+    },
+    {
+      "key": "602f3852-f693-4362-a3f7-215636aee0f8",
+      "name": "daniel",
+      "admin": true,
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e"
     }
   ],
   "steps": [
@@ -60,6 +66,15 @@
         },
         {
           "order": 2,
+          "title": "Payout Daniel",
+          "type": "payout",
+          "role": "daniel",
+          "marketplace": true,
+          "percentageOfBalance": 20,
+          "key": "07637014-5eab-47fd-bb7f-c818608bf169"
+        },
+        {
+          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
