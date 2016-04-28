@@ -291,12 +291,12 @@
         }
       ],
       "key": "d7e01f8f-52ee-2991-ab0a-d4c31d57e34f",
-      "order": 10
+      "order": 9
     },
     {
       "key": "0b72e8f7-930d-17f5-b92a-28b1bf846dfd",
       "title": "Follow-up call",
-      "order": 9,
+      "order": 10,
       "completeRole": "fixer",
       "stepItems": [
         {
