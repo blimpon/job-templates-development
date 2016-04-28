@@ -5,10 +5,10 @@
       "key": "7884dfa9-1b53-b5bc-e05a-23bb3da4e15d"
     },
     {
+      "key": "1e158895-4352-eea9-3110-2c70a7b97c65",
       "name": "fixer",
-      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
       "admin": true,
-      "key": "1e158895-4352-eea9-3110-2c70a7b97c65"
+      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab"
     }
   ],
   "steps": [
