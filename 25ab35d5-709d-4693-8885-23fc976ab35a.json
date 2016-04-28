@@ -13,7 +13,7 @@
   ],
   "steps": [
     {
-      "title": "Pay please",
+      "title": "Pay",
       "completeRole": "customer",
       "order": 1,
       "stepItems": [
