@@ -11,12 +11,6 @@
       "admin": true,
       "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab",
       "order": 2
-    },
-    {
-      "name": "marketplace",
-      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
-      "key": "2ab44020-73e1-4daa-9100-7ecf03ad700f",
-      "admin": true
     }
   ],
   "steps": [
@@ -66,15 +60,6 @@
         },
         {
           "order": 2,
-          "title": "Payout marketplace",
-          "type": "payout",
-          "role": "marketplace",
-          "marketplace": true,
-          "percentageOfBalance": "10",
-          "key": "5601f474-9740-4a8b-9b29-a05eaaa411da"
-        },
-        {
-          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
@@ -87,6 +72,5 @@
   ],
   "title": "test",
   "description": null,
-  "id": "25ab35d5-709d-4693-8885-23fc976ab35a",
-  "collectionId": "511f2978-c1dd-4e52-9194-52ec13a21e2c"
+  "id": "25ab35d5-709d-4693-8885-23fc976ab35a"
 }
