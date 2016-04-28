@@ -2,13 +2,15 @@
   "roles": [
     {
       "name": "customer",
-      "key": "654f9d05-5cd2-6e22-04a6-cd3046a38d0a"
+      "key": "654f9d05-5cd2-6e22-04a6-cd3046a38d0a",
+      "order": 1
     },
     {
       "key": "4dfb6427-4105-6c32-fb13-50f9eef76e17",
       "name": "fixer",
       "admin": true,
-      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab"
+      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab",
+      "order": 2
     }
   ],
   "steps": [
@@ -70,6 +72,5 @@
   ],
   "title": "standard",
   "description": null,
-  "id": "b2335cd3-bb28-483b-978b-12281c66eeb2",
-  "collectionId": "61bf54bf-c6b0-45f0-bc2b-fab0b2b2a902"
+  "id": "b2335cd3-bb28-483b-978b-12281c66eeb2"
 }
