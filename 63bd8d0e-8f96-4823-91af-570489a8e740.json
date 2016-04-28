@@ -66,6 +66,19 @@
         }
       ],
       "key": "98348833-da82-df2a-7802-94ce88221861"
+    },
+    {
+      "key": "61b3f0a1-407f-7f4f-9d0b-d2d9dc70940f",
+      "title": "step forward",
+      "order": 4,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "f0de4ae9-c769-5d8a-d8ec-464a061890c7",
+          "title": "asd",
+          "order": 1
+        }
+      ]
     }
   ],
   "title": "something borrowed",
