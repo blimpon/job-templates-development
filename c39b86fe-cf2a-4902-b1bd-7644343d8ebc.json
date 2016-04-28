@@ -143,12 +143,21 @@
           "order": 1
         },
         {
+          "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "marketplace",
+          "marketplace": true,
+          "percentageOfBalance": 20,
+          "key": "21dd5279-0634-4e62-8b25-b8c7fb6a415f"
+        },
+        {
           "title": "Payout project manager",
           "type": "payout",
           "role": "project manager",
           "percentageOfBalance": "51.9",
           "key": "7fb84f93-17e8-1799-31ed-c2bdf1c04a0e",
-          "order": 2
+          "order": 3
         },
         {
           "title": "Payout fixer",
@@ -156,7 +165,7 @@
           "role": "fixer",
           "percentageOfBalance": 100,
           "key": "56ea34f0-e8a5-daa8-bb63-0f7b506237fe",
-          "order": 3
+          "order": 4
         }
       ],
       "key": "0d3541f3-6675-e806-32c4-d33a81b57cb0",
