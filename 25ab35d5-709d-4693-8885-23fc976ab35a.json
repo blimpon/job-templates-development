@@ -60,15 +60,6 @@
         },
         {
           "order": 2,
-          "title": "Payout marketplace",
-          "type": "payout",
-          "role": "marketplace",
-          "marketplace": true,
-          "percentageOfBalance": 20,
-          "key": "fa84d1c1-eb0f-4c1e-9f41-5caf91bbe315"
-        },
-        {
-          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
