@@ -79,6 +79,20 @@
           "order": 1
         }
       ]
+    },
+    {
+      "key": "0e1d2e99-4506-5d94-28fd-8e4c93f52774",
+      "title": "the final step",
+      "order": 5,
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "key": "a95bc219-0e9f-deeb-014c-ce20a54dde9e",
+          "title": "confirm",
+          "order": 1,
+          "type": "confirmation"
+        }
+      ]
     }
   ],
   "title": "something borrowed",
