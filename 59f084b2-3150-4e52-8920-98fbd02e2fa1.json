@@ -14,7 +14,7 @@
   "steps": [
     {
       "key": "68bae276-0d0c-417f-a611-1411fd4e2f82",
-      "title": "Send a message to me",
+      "title": "Send a message to me ",
       "order": 1,
       "completeRole": "customer",
       "reviewRole": "fixer",
