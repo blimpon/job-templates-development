@@ -14,25 +14,9 @@
   ],
   "steps": [
     {
-      "title": "Pay",
-      "completeRole": "customer",
-      "order": 1,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": 180,
-          "required": true,
-          "key": "ba1ab963-3ada-2716-dae4-3ca11a40b5d2"
-        }
-      ],
-      "key": "ec9b0022-d9dc-bbd7-7375-7ab3428e753a"
-    },
-    {
       "title": "Do the work",
       "completeRole": "fixer",
-      "order": 2,
+      "order": 1,
       "stepItems": [
         {
           "order": 1,
@@ -47,7 +31,7 @@
     {
       "title": "Rate",
       "completeRole": "customer",
-      "order": 3,
+      "order": 2,
       "stepItems": [
         {
           "order": 1,
@@ -59,6 +43,15 @@
         },
         {
           "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "marketplace",
+          "marketplace": true,
+          "percentageOfBalance": 20,
+          "key": "e6942efd-ff76-4802-b0d9-6646ca9c2ada"
+        },
+        {
+          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
