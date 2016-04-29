@@ -35,6 +35,21 @@
         }
       ],
       "key": "215f82ed-10f7-c987-848f-a5271c72c3cc"
+    },
+    {
+      "key": "1b220471-6251-4208-b5df-2675d7c963f1",
+      "title": "Rate me baby one more time",
+      "order": 2,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "78c31948-c620-f663-d3de-fd7c8867e09f",
+          "title": "Rate",
+          "order": 1,
+          "type": "faceRating",
+          "for": "fixer"
+        }
+      ]
     }
   ],
   "title": "Rate me",
