@@ -14,24 +14,9 @@
   ],
   "steps": [
     {
-      "title": "Do the work",
-      "completeRole": "fixer",
-      "order": 1,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Has the work been done?",
-          "type": "confirmation",
-          "required": true,
-          "key": "7899abe2-802e-e912-5a52-a73c60bd0603"
-        }
-      ],
-      "key": "62958924-1a91-b01a-9745-fcd364555a16"
-    },
-    {
       "title": "Rate",
       "completeRole": "customer",
-      "order": 2,
+      "order": 1,
       "stepItems": [
         {
           "order": 1,
@@ -42,21 +27,11 @@
           "key": "53c29449-b9f9-1ef8-80dc-ed46c4d3a3a9"
         },
         {
+          "key": "668c3ea8-08fa-a4b2-51f9-8f02d73befb5",
+          "title": "In general, how happy are you?",
           "order": 2,
-          "title": "Payout marketplace",
-          "type": "payout",
-          "role": "marketplace",
-          "marketplace": true,
-          "percentageOfBalance": 20,
-          "key": "e6942efd-ff76-4802-b0d9-6646ca9c2ada"
-        },
-        {
-          "order": 3,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "03656f03-4f3e-7339-63c2-78b6e4e5a008"
+          "type": "faceRating",
+          "for": "fixer"
         }
       ],
       "key": "215f82ed-10f7-c987-848f-a5271c72c3cc"
