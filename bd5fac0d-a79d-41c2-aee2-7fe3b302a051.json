@@ -13,7 +13,7 @@
   ],
   "steps": [
     {
-      "title": "Pay",
+      "title": "Pay to chat",
       "completeRole": "customer",
       "order": 1,
       "stepItems": [
