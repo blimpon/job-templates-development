@@ -35,20 +35,6 @@
         }
       ],
       "key": "215f82ed-10f7-c987-848f-a5271c72c3cc"
-    },
-    {
-      "key": "696e5a8f-0541-722a-b741-a93acad5cc42",
-      "title": "Step for someone else",
-      "order": 2,
-      "completeRole": "fixer",
-      "stepItems": [
-        {
-          "key": "e7e55806-6dbb-3c79-a184-3168882b458f",
-          "title": "Done?",
-          "order": 1,
-          "type": "confirmation"
-        }
-      ]
     }
   ],
   "title": "Rate me",
