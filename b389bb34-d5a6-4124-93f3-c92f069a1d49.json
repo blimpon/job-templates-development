@@ -1,0 +1,74 @@
+{
+  "roles": [
+    {
+      "name": "customer",
+      "key": "c17c2970-cae5-2e47-30c9-6bc848beaca2"
+    },
+    {
+      "name": "fixer",
+      "defaultUser": "6201ca6a-1b17-4591-98e7-db4245093ed6",
+      "admin": true,
+      "key": "f3898b9d-2d38-f044-7c0e-fe3deb6105e3"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pay",
+      "completeRole": "customer",
+      "order": 1,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Payment",
+          "type": "pay",
+          "totalUSD": 100,
+          "required": true,
+          "key": "82998a9a-72e2-a18e-79eb-b79ac4518906"
+        }
+      ],
+      "key": "3996b582-6754-623a-b9f3-1cf6da94a3cf"
+    },
+    {
+      "title": "Do the work",
+      "completeRole": "fixer",
+      "order": 2,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Has the work been done?",
+          "type": "confirmation",
+          "required": true,
+          "key": "915776a8-dd3a-3e65-8ac3-1a1178564b12"
+        }
+      ],
+      "key": "a55215e4-db9e-b0cc-3769-c9de361abdb6"
+    },
+    {
+      "title": "Rate",
+      "completeRole": "customer",
+      "order": 3,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "How happy are you with the work completed?",
+          "type": "faceRating",
+          "for": "fixer",
+          "required": true,
+          "key": "7dd626b7-7950-51b4-2d0b-12862a5ff22d"
+        },
+        {
+          "order": 2,
+          "title": "Payout fixer",
+          "type": "payout",
+          "role": "fixer",
+          "percentageOfBalance": 100,
+          "key": "c016759e-0bbf-be6d-c026-2d9841a8cfbf"
+        }
+      ],
+      "key": "1991f84c-c392-9787-d675-b79a42bb7c38"
+    }
+  ],
+  "description": "A description",
+  "title": "Will build a website",
+  "id": "b389bb34-d5a6-4124-93f3-c92f069a1d49"
+}
