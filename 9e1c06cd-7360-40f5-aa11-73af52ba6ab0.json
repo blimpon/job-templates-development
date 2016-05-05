@@ -13,6 +13,7 @@
     {
       "key": "457f5b77-938e-16d2-53a3-97a30a8fbcf5",
       "name": "manager",
+      "admin": false,
       "defaultUser": "96e96cac-65f0-4083-9a41-b21ac44f1074"
     }
   ],
