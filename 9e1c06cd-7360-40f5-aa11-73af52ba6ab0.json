@@ -13,8 +13,8 @@
     {
       "key": "457f5b77-938e-16d2-53a3-97a30a8fbcf5",
       "name": "manager",
-      "admin": false,
-      "defaultUser": "96e96cac-65f0-4083-9a41-b21ac44f1074"
+      "admin": true,
+      "defaultUser": "e588e338-0729-4ee5-a72c-e3fb0d463b05"
     }
   ],
   "steps": [
