@@ -9,6 +9,11 @@
       "defaultUser": "6201ca6a-1b17-4591-98e7-db4245093ed6",
       "admin": true,
       "key": "629b9450-f080-c025-6224-1cae15192aa9"
+    },
+    {
+      "key": "457f5b77-938e-16d2-53a3-97a30a8fbcf5",
+      "name": "manager",
+      "defaultUser": "96e96cac-65f0-4083-9a41-b21ac44f1074"
     }
   ],
   "steps": [
