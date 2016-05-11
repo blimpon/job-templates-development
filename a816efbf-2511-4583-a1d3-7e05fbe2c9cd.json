@@ -71,5 +71,6 @@
   ],
   "title": "job without an image",
   "description": null,
-  "id": "a816efbf-2511-4583-a1d3-7e05fbe2c9cd"
+  "id": "a816efbf-2511-4583-a1d3-7e05fbe2c9cd",
+  "jobTemplateImageId": "35b388ab-c55d-4121-82f9-ef76ca994524"
 }
