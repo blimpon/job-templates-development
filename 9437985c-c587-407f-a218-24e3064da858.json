@@ -140,6 +140,58 @@
           "order": 7
         }
       ]
+    },
+    {
+      "key": "8b56f2e8-f4b9-07de-0f20-dee75a57896b",
+      "title": "Review",
+      "order": 6,
+      "completeRole": "reviewer",
+      "stepItems": [
+        {
+          "key": "125cef4f-5e18-5b16-0b57-45e34fb4e295",
+          "title": "Review the application, messaging the expert with any things they need to revise",
+          "order": 1,
+          "type": "html"
+        }
+      ]
+    },
+    {
+      "key": "a963b00e-0996-460c-e122-6ae40953689c",
+      "title": "Set the expert up for publishing",
+      "order": 7,
+      "completeRole": "reviewer",
+      "stepItems": [
+        {
+          "key": "bd278a55-9026-86a3-0ff3-847bae068d76",
+          "title": "Import testimonials",
+          "order": 1,
+          "type": "confirmation"
+        },
+        {
+          "key": "af5341e5-590c-3a4a-1804-3d8580851f63",
+          "title": "Flag the user as authorised for publishing",
+          "order": 2,
+          "type": "confirmation"
+        },
+        {
+          "key": "3933edfc-22bb-57fe-be2b-abac4b991475",
+          "title": "Publish their job templates",
+          "order": 3,
+          "type": "confirmation"
+        },
+        {
+          "key": "7317ef68-9c14-e478-f5c7-5dfa2bda3663",
+          "title": "Check everything looks good",
+          "order": 4,
+          "type": "confirmation"
+        },
+        {
+          "key": "b1f4304b-a9c7-9a26-d2f4-a862daf73d71",
+          "title": "Message the expert to tell them the good news",
+          "order": 5,
+          "type": "confirmation"
+        }
+      ]
     }
   ],
   "title": "Marketplace application",
