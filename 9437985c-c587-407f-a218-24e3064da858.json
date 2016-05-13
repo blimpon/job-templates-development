@@ -1,71 +1,145 @@
 {
   "roles": [
     {
-      "name": "customer",
-      "key": "45eb8737-a154-71ef-3429-374c803096b9"
+      "key": "45eb8737-a154-71ef-3429-374c803096b9",
+      "name": "expert"
     },
     {
-      "name": "fixer",
-      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab",
+      "key": "fdf68fa7-a072-57a9-33d6-8e3690a07580",
+      "name": "reviewer",
       "admin": true,
-      "key": "fdf68fa7-a072-57a9-33d6-8e3690a07580"
+      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab"
     }
   ],
   "steps": [
     {
-      "title": "Pay",
-      "completeRole": "customer",
+      "title": "Name",
+      "completeRole": "expert",
       "order": 1,
       "stepItems": [
         {
+          "key": "ead4e34f-14b2-c56a-838a-a32bc248b09d",
+          "title": "We've found that job satisfaction increases if a client is dealing with a real person rather than a company name. Your Blimpon profile name should be the name of the primary contact that clients will be working with in your company",
           "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": 180,
-          "required": true,
-          "key": "59020d45-3baa-eaa6-17d1-3ac5a19b1eee"
-        }
-      ],
-      "key": "bd7e8acd-b4c4-9183-d42f-1f2910025e58"
-    },
-    {
-      "title": "Do the work",
-      "completeRole": "fixer",
-      "order": 2,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Has the work been done?",
-          "type": "confirmation",
-          "required": true,
-          "key": "2b9ad1ed-4c6b-6bbc-e68f-3de3dff1f622"
-        }
-      ],
-      "key": "4300ca10-aa0c-2ea6-c321-6b019ed5245d"
-    },
-    {
-      "title": "Rate",
-      "completeRole": "customer",
-      "order": 3,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "How happy are you with the work completed?",
-          "type": "faceRating",
-          "for": "fixer",
-          "required": true,
-          "key": "ddd56038-6640-f3f5-6a3d-100a9c097053"
+          "type": "html"
         },
         {
+          "key": "a17dbebf-3eb2-3a81-7ca6-44f0cb2610f7",
+          "title": "Real name on Blimpon profile",
           "order": 2,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "ffba6988-6059-7149-ab47-5002480736ef"
+          "type": "confirmation"
         }
       ],
-      "key": "b3259114-4a08-34f4-542b-ffeffab05078"
+      "key": "4300ca10-aa0c-2ea6-c321-6b019ed5245d",
+      "reviewRole": "reviewer"
+    },
+    {
+      "key": "cbf4f792-7411-883a-f0b6-aa3c41f990d6",
+      "title": "Photo",
+      "order": 2,
+      "completeRole": "expert",
+      "stepItems": [
+        {
+          "key": "2f84ea42-234b-29d8-f8d7-026471edb898",
+          "title": "Your Blimpon profile photo should be a photo of you. Clients like to put a face to the person they're working with",
+          "order": 1,
+          "type": "html"
+        },
+        {
+          "key": "ee007387-b25b-4cb9-5bd2-5be20be60182",
+          "title": "Photo of you on your Blimpon profile",
+          "order": 2,
+          "type": "confirmation"
+        }
+      ],
+      "reviewRole": "reviewer"
+    },
+    {
+      "key": "ebc0a1e7-72c5-5f72-25e1-76893659cee9",
+      "title": "Bio",
+      "order": 3,
+      "completeRole": "expert",
+      "stepItems": [
+        {
+          "key": "ec160451-6347-f3fd-b946-493b13c80253",
+          "title": "A clear and concise bio is one of the key things a client looks at to decide if they'd like to work with you. Sell yourself, your experience and skills",
+          "order": 1,
+          "type": "html"
+        },
+        {
+          "key": "7e2b1868-4146-a1dd-f9e6-aa8468f2d435",
+          "title": "Compelling bio on your Blimpon profile",
+          "order": 2,
+          "type": "confirmation"
+        }
+      ],
+      "reviewRole": "reviewer"
+    },
+    {
+      "key": "71832701-652d-c2a4-96f5-d54744eb1e7d",
+      "title": "Job template",
+      "order": 4,
+      "completeRole": "expert",
+      "reviewRole": "reviewer",
+      "stepItems": [
+        {
+          "key": "08d8e2e7-1e50-3774-0b03-20ee46502d87",
+          "title": "Job templates let clients see the kind of services you can provide. The more the better if you offer a range of services and price points. To get started though you just need one job template that meets our publishing standards (these are shown when you're creating a job template)",
+          "order": 1,
+          "type": "html"
+        },
+        {
+          "key": "f287e18c-0d87-b55c-1949-8a76527dc193",
+          "title": "At least one job template ready for publishing",
+          "order": 2,
+          "type": "confirmation"
+        }
+      ]
+    },
+    {
+      "key": "38086b2a-bc16-c504-b377-c63223c5e564",
+      "title": "Testimonials",
+      "order": 5,
+      "completeRole": "expert",
+      "reviewRole": "reviewer",
+      "stepItems": [
+        {
+          "key": "abc93a83-55e3-fe73-5db8-c67c4ddc91ac",
+          "title": "To list on the Blimpon marketplace you need three testimonials from previous clients. These are shown on your public profile to give clients confidence in your credibility ",
+          "order": 1,
+          "type": "html"
+        },
+        {
+          "key": "84e4f05d-0a13-a5a2-1a06-614c011f3329",
+          "title": "First testimonial",
+          "order": 2
+        },
+        {
+          "key": "24b7e828-173f-adb9-532c-bae739912e4a",
+          "title": "Client name, company and URL",
+          "order": 3
+        },
+        {
+          "key": "4a16a2ac-c6af-2f95-f574-694144656407",
+          "title": "Second testimonial",
+          "order": 4
+        },
+        {
+          "key": "87bf2fe1-f0a8-3cff-7537-53e8f7f29b36",
+          "title": "Client name, company and URL",
+          "order": 5
+        },
+        {
+          "key": "321cd854-a02a-63f4-ad28-07bba1ce42ec",
+          "title": "Third testimonial",
+          "order": 6
+        },
+        {
+          "key": "3ec39727-fcfa-1ef1-b257-bdd816cf202f",
+          "title": "Client name, company and URL",
+          "order": 7
+        }
+      ]
     }
   ],
   "title": "Marketplace application",
