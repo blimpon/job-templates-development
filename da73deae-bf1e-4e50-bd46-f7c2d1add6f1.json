@@ -9,6 +9,12 @@
       "admin": true,
       "defaultUser": "852bd271-a561-428d-8750-3f45110cc004",
       "key": "b53678f4-68dc-b170-4dd7-5f4be4733bf8"
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "key": "354db2be-ce57-43a2-9463-d7c5d0872dea",
+      "admin": true
     }
   ],
   "steps": [
@@ -58,6 +64,15 @@
         },
         {
           "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "marketplace",
+          "marketplace": true,
+          "percentageOfBalance": 20,
+          "key": "4bd1d258-4465-42e9-9a74-e3c891dc982f"
+        },
+        {
+          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
@@ -71,5 +86,6 @@
   "collectionId": "61bf54bf-c6b0-45f0-bc2b-fab0b2b2a902",
   "description": "This is the best SEO fixes package",
   "title": "BEST SEO fixes",
-  "id": "da73deae-bf1e-4e50-bd46-f7c2d1add6f1"
+  "id": "da73deae-bf1e-4e50-bd46-f7c2d1add6f1",
+  "jobTemplateImageId": "8ed9ad14-5a0e-4166-b57d-93ce11d85bf0"
 }
