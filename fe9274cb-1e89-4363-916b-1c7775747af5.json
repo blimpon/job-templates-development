@@ -1,0 +1,56 @@
+{
+  "roles": [
+    {
+      "name": "customer",
+      "key": "1e1c324d-3889-913a-c1c4-15dcbe94f5bb"
+    },
+    {
+      "name": "fixer",
+      "admin": true,
+      "defaultUser": "852bd271-a561-428d-8750-3f45110cc004",
+      "key": "d34c6667-7260-93c7-13f4-69a42a3b9ef2"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Request a quote",
+      "completeRole": "customer",
+      "order": 1,
+      "stepItems": [
+        {
+          "title": "What are you looking for?",
+          "order": 1,
+          "type": "text",
+          "required": true,
+          "description": "Describe what you want in as much detail as possible. Detailed requests will get faster and better quality replies",
+          "key": "9defca6e-ffd2-36bb-86da-ceb1d7be8005"
+        },
+        {
+          "title": "What's your budget?",
+          "order": 2,
+          "description": "A rough idea of how much you're looking to spend helps us to see if we can deliver what you want within that",
+          "key": "2c41172e-3b9d-211e-d6db-f658014da417"
+        }
+      ],
+      "reviewRole": "fixer",
+      "key": "4bd5e928-9523-2722-c13b-11803fd06dcf"
+    },
+    {
+      "title": "Prepare quote",
+      "order": 2,
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "title": "Quote prepared and sent",
+          "order": 1,
+          "type": "confirmation",
+          "key": "9a659c75-b72f-531d-8280-275885a9cd60"
+        }
+      ],
+      "key": "2e161a20-a931-7c10-e7e1-e8c1788f1191"
+    }
+  ],
+  "description": "Request a quote",
+  "title": "Quote request",
+  "id": "fe9274cb-1e89-4363-916b-1c7775747af5"
+}
