@@ -1,0 +1,85 @@
+{
+  "roles": [
+    {
+      "name": "customer",
+      "key": "23740074-b7d2-643e-0046-6f0ba11495b1"
+    },
+    {
+      "name": "fixer",
+      "admin": true,
+      "defaultUser": "852bd271-a561-428d-8750-3f45110cc004",
+      "key": "b53678f4-68dc-b170-4dd7-5f4be4733bf8"
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "key": "354db2be-ce57-43a2-9463-d7c5d0872dea",
+      "admin": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pay",
+      "completeRole": "customer",
+      "order": 1,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Payment",
+          "type": "pay",
+          "totalUSD": "399",
+          "required": true,
+          "key": "7e59c90d-3266-00b3-a8e7-cbe95d5e041a"
+        }
+      ],
+      "key": "e40cbabc-f794-0c21-38e1-f3560bad5b36"
+    },
+    {
+      "title": "Do the work",
+      "completeRole": "fixer",
+      "order": 2,
+      "stepItems": [
+
+      ],
+      "key": "26d11aa3-32ed-c9a7-285e-1453aea1ea91"
+    },
+    {
+      "title": "Rate",
+      "completeRole": "customer",
+      "order": 3,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "How happy are you with the work completed?",
+          "type": "faceRating",
+          "for": "fixer",
+          "required": true,
+          "key": "43a86325-5da6-e044-a4a5-2b643ce593a2"
+        },
+        {
+          "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "marketplace",
+          "marketplace": true,
+          "percentageOfBalance": 20,
+          "key": "4bd1d258-4465-42e9-9a74-e3c891dc982f"
+        },
+        {
+          "order": 3,
+          "title": "Payout fixer",
+          "type": "payout",
+          "role": "fixer",
+          "percentageOfBalance": 100,
+          "key": "87f6ecef-5fa5-1850-190f-c937bdf4f0b4"
+        }
+      ],
+      "key": "60a87935-9d82-92e2-9a57-94072a6fdd7c"
+    }
+  ],
+  "collectionId": "61bf54bf-c6b0-45f0-bc2b-fab0b2b2a902",
+  "description": "This is the best SEO fixes package",
+  "title": "BEST SEO fixes! (copy)",
+  "jobTemplateImageId": "8ed9ad14-5a0e-4166-b57d-93ce11d85bf0",
+  "id": "39837671-e8d3-4be6-bd93-d12a540b21bb"
+}
