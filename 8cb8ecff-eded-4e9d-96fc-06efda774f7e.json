@@ -9,6 +9,12 @@
       "admin": true,
       "defaultUser": "852bd271-a561-428d-8750-3f45110cc004",
       "key": "a93a427f-bba3-7233-ce5d-441c24b8919f"
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "key": "fa1760b4-d280-49cb-bac6-c2a0c3a75e28",
+      "admin": true
     }
   ],
   "steps": [
@@ -35,7 +41,7 @@
       "stepItems": [
         {
           "order": 1,
-          "title": "Has the work been done?",
+          "title": "Have you done the work?????",
           "type": "confirmation",
           "required": true,
           "key": "a2a384f8-8a68-cbc8-3d47-b92c421a35cc"
@@ -58,6 +64,15 @@
         },
         {
           "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "marketplace",
+          "marketplace": true,
+          "percentageOfBalance": 20,
+          "key": "f9db89f0-d617-4f64-8f9c-0b340bb47c68"
+        },
+        {
+          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
