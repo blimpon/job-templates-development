@@ -9,12 +9,6 @@
       "admin": true,
       "defaultUser": "852bd271-a561-428d-8750-3f45110cc004",
       "key": "dc8e4eff-792c-4045-abc7-8c7388cef106"
-    },
-    {
-      "name": "marketplace",
-      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
-      "key": "1ff4ea7e-963b-450f-8f61-1a39e142582e",
-      "admin": true
     }
   ],
   "steps": [
@@ -58,15 +52,6 @@
         },
         {
           "order": 2,
-          "title": "Payout marketplace",
-          "type": "payout",
-          "role": "marketplace",
-          "marketplace": true,
-          "percentageOfBalance": 20,
-          "key": "2190edf0-dcd6-445d-8c7f-8cda1db8d188"
-        },
-        {
-          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
@@ -78,7 +63,8 @@
     }
   ],
   "title": "second try",
-  "description": "",
+  "description": "asf",
   "id": "79eafb31-c85f-4267-860a-9328f0299923",
-  "jobTemplateImageId": "0dcafa68-2500-4f36-93cd-345a14a77dcc"
+  "jobTemplateImageId": "0dcafa68-2500-4f36-93cd-345a14a77dcc",
+  "collectionId": "7abfbc51-913b-4d47-b7b3-4aa62eb0e476"
 }
