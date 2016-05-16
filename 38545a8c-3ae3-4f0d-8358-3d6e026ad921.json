@@ -68,7 +68,7 @@
           "type": "payout",
           "role": "marketplace",
           "marketplace": true,
-          "percentageOfBalance": 20,
+          "percentageOfBalance": "10",
           "key": "8d49b44d-3c5a-4851-a5f6-6b728cbc6cc5"
         },
         {
@@ -76,7 +76,7 @@
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
-          "percentageOfBalance": 100,
+          "percentageOfBalance": "100",
           "key": "573c68b7-23d9-f986-e5a1-5438b2b9591f"
         }
       ],
@@ -85,7 +85,7 @@
   ],
   "collectionId": "1039cd5a-9501-43ce-b05e-1dd9126da592",
   "title": "new 12345",
-  "description": "",
+  "description": "asdasf",
   "id": "38545a8c-3ae3-4f0d-8358-3d6e026ad921",
   "jobTemplateImageId": "9f95a849-279a-487c-ba24-2b734b0325a6"
 }
