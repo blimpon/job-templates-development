@@ -14,25 +14,9 @@
   ],
   "steps": [
     {
-      "title": "Pay",
-      "completeRole": "customer",
-      "order": 1,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": 123,
-          "required": true,
-          "key": "6739b5e5-3fa6-15ad-bfea-d35e961ec2f9"
-        }
-      ],
-      "key": "331b31f2-0e74-5f77-1c97-092d2b6dbcb9"
-    },
-    {
       "title": "Do the work",
       "completeRole": "fixer",
-      "order": 2,
+      "order": 1,
       "stepItems": [
         {
           "order": 1,
@@ -40,33 +24,21 @@
           "type": "confirmation",
           "required": true,
           "key": "97f8f93e-41f5-cae3-c468-1b6a614bc937"
+        },
+        {
+          "key": "c1130078-2620-efec-a630-ec4ed75c3c65",
+          "title": "Really?",
+          "order": 2,
+          "type": "confirmation"
+        },
+        {
+          "key": "275155d4-6204-7457-3da8-c837fcae4bc6",
+          "title": "Sure?",
+          "order": 3,
+          "type": "confirmation"
         }
       ],
       "key": "6ea7c303-86bc-a8de-27c6-81bf79b67886"
-    },
-    {
-      "title": "Rate",
-      "completeRole": "customer",
-      "order": 3,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "How happy are you with the work completed?",
-          "type": "faceRating",
-          "for": "fixer",
-          "required": true,
-          "key": "4f84d3f4-1a74-e6c3-5326-6adedf753027"
-        },
-        {
-          "order": 2,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "8dec6caa-60b8-c364-2a25-54531d58627f"
-        }
-      ],
-      "key": "fa2771ed-6633-1e4c-5e99-9fda63de07b2"
     }
   ],
   "title": "job with a really long description kindof like this and also with an image",
