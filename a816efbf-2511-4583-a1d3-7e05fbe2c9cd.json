@@ -20,20 +20,20 @@
       "stepItems": [
         {
           "order": 1,
-          "title": "Has the work been done?",
+          "title": "Has the work been done? 1",
           "type": "confirmation",
           "required": true,
           "key": "97f8f93e-41f5-cae3-c468-1b6a614bc937"
         },
         {
           "key": "c1130078-2620-efec-a630-ec4ed75c3c65",
-          "title": "Really?",
+          "title": "Really? 2",
           "order": 2,
           "type": "confirmation"
         },
         {
           "key": "275155d4-6204-7457-3da8-c837fcae4bc6",
-          "title": "Sure?",
+          "title": "Sure? 3",
           "order": 3,
           "type": "confirmation"
         }
