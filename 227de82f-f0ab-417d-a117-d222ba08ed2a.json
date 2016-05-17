@@ -9,6 +9,12 @@
       "admin": true,
       "defaultUser": "852bd271-a561-428d-8750-3f45110cc004",
       "key": "8391803d-6588-e674-fe87-7d55188127e3"
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "key": "3f179bc8-fcb0-42ab-971b-ae5ab0037dfc",
+      "admin": true
     }
   ],
   "steps": [
@@ -58,6 +64,15 @@
         },
         {
           "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "marketplace",
+          "marketplace": true,
+          "percentageOfBalance": 20,
+          "key": "cf07a8ae-8aba-4eef-b1e2-ebd2228955bc"
+        },
+        {
+          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
@@ -69,7 +84,7 @@
     }
   ],
   "collectionId": "49b2bccb-5f67-4a93-9984-6376bff35654",
-  "title": "New job template",
+  "title": "Genuine Rulex watches",
   "description": "ityityi",
   "id": "227de82f-f0ab-417d-a117-d222ba08ed2a",
   "jobTemplateImageId": "b04f294c-6abf-43b1-9641-16434eb9c457"
