@@ -13,13 +13,6 @@
       "order": 2
     },
     {
-      "name": "marketplace",
-      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
-      "key": "fa1760b4-d280-49cb-bac6-c2a0c3a75e28",
-      "admin": true,
-      "order": 3
-    },
-    {
       "key": "fea4db11-585f-8500-d90f-515d3d961d23",
       "name": "digital",
       "admin": true,
@@ -73,15 +66,6 @@
         },
         {
           "order": 2,
-          "title": "Payout marketplace",
-          "type": "payout",
-          "role": "marketplace",
-          "marketplace": true,
-          "percentageOfBalance": 20,
-          "key": "f9db89f0-d617-4f64-8f9c-0b340bb47c68"
-        },
-        {
-          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
@@ -95,5 +79,6 @@
   "description": "asd asd asd",
   "title": "pay up please",
   "id": "8cb8ecff-eded-4e9d-96fc-06efda774f7e",
-  "jobTemplateImageId": "ef4b07b9-09cd-4e8e-9f26-0c56c696ee2c"
+  "jobTemplateImageId": "ef4b07b9-09cd-4e8e-9f26-0c56c696ee2c",
+  "collectionId": "49b2bccb-5f67-4a93-9984-6376bff35654"
 }
