@@ -301,5 +301,6 @@
     }
   ],
   "description": "Just the failing items picked up by the Plug in SEO 'SEO problems' check will be fixed. This includes changing your HTML, so you don't need any coding experience.\n\nThere will be a few questions during signup about the keywords you'd like to target too.",
-  "jobTemplateImageId": "fd3a3382-4320-4479-968e-ed4d4ae7289c"
+  "jobTemplateImageId": "fd3a3382-4320-4479-968e-ed4d4ae7289c",
+  "collectionId": "511f2978-c1dd-4e52-9194-52ec13a21e2c"
 }
