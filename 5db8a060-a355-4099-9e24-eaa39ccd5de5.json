@@ -64,6 +64,15 @@
         },
         {
           "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "dude",
+          "marketplace": true,
+          "percentageOfBalance": 20,
+          "key": "0c0fc4c7-1bc7-48ab-9708-324fbdf9bf26"
+        },
+        {
+          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
@@ -77,6 +86,5 @@
   "title": "New job template",
   "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
   "id": "5db8a060-a355-4099-9e24-eaa39ccd5de5",
-  "jobTemplateImageId": "0594d5f9-9541-4c62-b1d8-c66e534e7600",
-  "collectionId": "61bf54bf-c6b0-45f0-bc2b-fab0b2b2a902"
+  "jobTemplateImageId": "0594d5f9-9541-4c62-b1d8-c66e534e7600"
 }
