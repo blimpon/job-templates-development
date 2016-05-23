@@ -9,6 +9,12 @@
       "admin": true,
       "defaultUser": "852bd271-a561-428d-8750-3f45110cc004",
       "key": "55627090-f08c-87f5-48f6-3936edb5185a"
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "key": "7faa67d4-6b35-4874-9ae8-c9b3616f7c35",
+      "admin": true
     }
   ],
   "steps": [
@@ -58,6 +64,15 @@
         },
         {
           "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "marketplace",
+          "marketplace": true,
+          "percentageOfBalance": 20,
+          "key": "6534ee9b-67e9-485a-aaca-c03048080cd4"
+        },
+        {
+          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
@@ -71,6 +86,5 @@
   "title": "New job template",
   "description": "<ul>hello<li>world</li>\n</ul>",
   "id": "5db8a060-a355-4099-9e24-eaa39ccd5de5",
-  "jobTemplateImageId": "0594d5f9-9541-4c62-b1d8-c66e534e7600",
-  "collectionId": "61bf54bf-c6b0-45f0-bc2b-fab0b2b2a902"
+  "jobTemplateImageId": "0594d5f9-9541-4c62-b1d8-c66e534e7600"
 }
