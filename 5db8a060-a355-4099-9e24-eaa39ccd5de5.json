@@ -69,7 +69,7 @@
     }
   ],
   "title": "New job template",
-  "description": "junk<p></p><p>with no <strong>funk</strong></p>",
+  "description": "<p>junk</p><p>with no funk</p>",
   "id": "5db8a060-a355-4099-9e24-eaa39ccd5de5",
   "jobTemplateImageId": "0594d5f9-9541-4c62-b1d8-c66e534e7600"
 }
