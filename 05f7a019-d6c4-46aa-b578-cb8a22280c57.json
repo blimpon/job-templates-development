@@ -16,6 +16,12 @@
       "admin": true,
       "defaultUser": "d86b9ddf-0461-4919-9b98-050fa59ba03d",
       "key": "b691a114-3f69-5b22-1602-5686c469f5fc"
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "key": "e09b6dcf-0da6-40be-a5f4-ec14c34321b4",
+      "admin": true
     }
   ],
   "steps": [
@@ -70,7 +76,7 @@
           "title": "Answer the questions below as best as you can so that we can complete the work exactly how you'd like. If you're unsure about any, simply write 'unsure' and we'll come up with suggestions for your approval.",
           "type": "html",
           "description": "You can press the help icon for more help on each one.",
-          "required": false,
+          "required": true,
           "key": "c8228266-c6fc-3543-c52b-a00191eec2d0",
           "order": 1
         },
@@ -134,10 +140,31 @@
           "body": "<h1>New job created: {{ job_title }} at Blimpon</h1><p>The customer has paid, provided access and answered the questions so it's now ready for your work.</p>",
           "key": "9d0a012c-0468-1001-67ea-9be7acc1026f",
           "order": 9
+        },
+        {
+          "key": "e82b766e-14b5-c5b0-622e-56b771d20343",
+          "title": "test",
+          "type": "text",
+          "order": 10
         }
       ],
       "key": "e190fb04-3e68-fcb0-ad81-da4f0785f262",
       "order": 3
+    },
+    {
+      "title": "Quality control",
+      "completeRole": "project manager",
+      "stepItems": [
+        {
+          "title": "Check that all SEO fixes have been completed and the Plug in SEO verdict has improved",
+          "type": "confirmation",
+          "required": true,
+          "key": "c9409734-c837-399f-ed2f-c8439b6bc523",
+          "order": 1
+        }
+      ],
+      "key": "e8ebf207-41ff-1589-aa38-3b4239e47808",
+      "order": 4
     },
     {
       "title": "Meta descriptions",
@@ -189,6 +216,30 @@
       "order": 6
     },
     {
+      "title": "Image ALT tags",
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "title": "ALT tags for all homepage images",
+          "type": "confirmation",
+          "help": "Make sure all images on the homepage have good ALT tags. Make them automatically generated if possible, otherwise easily changeable by the customer (using a theme setting or similar)",
+          "required": true,
+          "key": "ab33bef9-83f5-1c5e-e086-983a9e53bf81",
+          "order": 1
+        },
+        {
+          "title": "Auto-generated ALT tags for key images: product page, collection page etc.",
+          "type": "confirmation",
+          "help": "Check and fix that things like the product name is the ALT tag for product images on the product page and other key pages",
+          "required": true,
+          "key": "b7293fbf-6999-2ea4-c4c0-e1954a502e83",
+          "order": 2
+        }
+      ],
+      "key": "d3050316-6b3a-938d-5607-5f92f209c421",
+      "order": 7
+    },
+    {
       "title": "Page titles",
       "completeRole": "fixer",
       "stepItems": [
@@ -221,43 +272,18 @@
       "order": 8
     },
     {
-      "title": "Image ALT tags",
+      "key": "0b72e8f7-930d-17f5-b92a-28b1bf846dfd",
+      "title": "Follow-up call",
       "completeRole": "fixer",
       "stepItems": [
         {
-          "title": "ALT tags for all homepage images",
+          "key": "ae4b5b89-a0ee-1766-7aea-95d327dfe513",
+          "title": "Called",
           "type": "confirmation",
-          "help": "Make sure all images on the homepage have good ALT tags. Make them automatically generated if possible, otherwise easily changeable by the customer (using a theme setting or similar)",
-          "required": true,
-          "key": "ab33bef9-83f5-1c5e-e086-983a9e53bf81",
-          "order": 1
-        },
-        {
-          "title": "Auto-generated ALT tags for key images: product page, collection page etc.",
-          "type": "confirmation",
-          "help": "Check and fix that things like the product name is the ALT tag for product images on the product page and other key pages",
-          "required": true,
-          "key": "b7293fbf-6999-2ea4-c4c0-e1954a502e83",
-          "order": 2
-        }
-      ],
-      "key": "d3050316-6b3a-938d-5607-5f92f209c421",
-      "order": 7
-    },
-    {
-      "title": "Quality control",
-      "completeRole": "project manager",
-      "stepItems": [
-        {
-          "title": "Check that all SEO fixes have been completed and the Plug in SEO verdict has improved",
-          "type": "confirmation",
-          "required": true,
-          "key": "c9409734-c837-399f-ed2f-c8439b6bc523",
           "order": 1
         }
       ],
-      "key": "e8ebf207-41ff-1589-aa38-3b4239e47808",
-      "order": 4
+      "order": 9
     },
     {
       "title": "Complete the work",
@@ -272,13 +298,22 @@
           "order": 1
         },
         {
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "marketplace",
+          "marketplace": true,
+          "percentageOfBalance": 20,
+          "key": "9e2b046e-5a84-4d79-b3a5-e1cc10620bb7",
+          "order": 2
+        },
+        {
           "title": "Payout project manager",
           "type": "payout",
           "required": true,
           "role": "project manager",
           "percentageOfBalance": "20",
           "key": "5e843342-be2c-c893-6987-a21b3879a937",
-          "order": 2
+          "order": 3
         },
         {
           "title": "Payout fixer",
@@ -287,25 +322,11 @@
           "role": "fixer",
           "percentageOfBalance": "100",
           "key": "ada60ca8-9746-4b1c-15fa-f9d439511a36",
-          "order": 3
+          "order": 4
         }
       ],
       "key": "d7e01f8f-52ee-2991-ab0a-d4c31d57e34f",
       "order": 10
-    },
-    {
-      "key": "0b72e8f7-930d-17f5-b92a-28b1bf846dfd",
-      "title": "Follow-up call",
-      "order": 9,
-      "completeRole": "fixer",
-      "stepItems": [
-        {
-          "key": "ae4b5b89-a0ee-1766-7aea-95d327dfe513",
-          "title": "Called",
-          "order": 1,
-          "type": "confirmation"
-        }
-      ]
     }
   ],
   "description": "<p>Structure your <strong>HTML</strong> (website code) properly and ensuring the right keywords are used in the right places is essential to ensure you have the best chance to rank well in Google, Bing and other search engines.</p>\n\n<p>Page titles, meta descriptions, headings, ALT tags all have a part to play in this. With many e-commerce and website platforms like Shopify, Bigcommerce and Wordpress lots of this can be automatically generated with the right code in place.</p> \n\n<p>Your site template code will be fixed to take full advantage of this and correct HTML errors (things like duplicate title tags). You don't need any programming experience. You simply answer a few questions about the keywords you'd like to target.</p>\n\n<p>If your site isn't in English that's okay too. As long as you can provide keywords in your language and message your fixer in English we can handle all of the coding. Spanish, French, Danish, Thai and other customers have successfully completed this job.</p>",
