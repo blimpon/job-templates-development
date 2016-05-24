@@ -70,7 +70,7 @@
           "title": "Answer the questions below as best as you can so that we can complete the work exactly how you'd like. If you're unsure about any, simply write 'unsure' and we'll come up with suggestions for your approval.",
           "type": "html",
           "description": "You can press the help icon for more help on each one.",
-          "required": true,
+          "required": false,
           "key": "c8228266-c6fc-3543-c52b-a00191eec2d0",
           "order": 1
         },
