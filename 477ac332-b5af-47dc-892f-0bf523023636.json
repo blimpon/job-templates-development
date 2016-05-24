@@ -1,75 +1,205 @@
 {
   "roles": [
     {
-      "name": "customer",
-      "key": "5779a728-fc60-2736-9ea4-eab518bba277"
+      "key": "45eb8737-a154-71ef-3429-374c803096b9",
+      "name": "expert"
     },
     {
-      "name": "fixer",
+      "key": "fdf68fa7-a072-57a9-33d6-8e3690a07580",
+      "name": "reviewer",
       "admin": true,
-      "defaultUser": "ae63cfdc-6011-46ee-b26e-4c6a9435c6a0",
-      "key": "d31e4386-c0a6-ff5e-18bb-d42e90b500de"
+      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab"
     }
   ],
   "steps": [
     {
-      "title": "Pay",
-      "completeRole": "customer",
-      "order": 1,
+      "title": "Name",
+      "completeRole": "expert",
       "stepItems": [
         {
-          "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": 180,
-          "required": true,
-          "key": "ce289c1f-9b84-a167-d369-24d6db24eed5"
-        }
-      ],
-      "key": "c5005464-1669-729a-936e-8ea6d6c4e2b7"
-    },
-    {
-      "title": "Do the work",
-      "completeRole": "fixer",
-      "order": 2,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Has the work been done?",
-          "type": "confirmation",
-          "required": true,
-          "key": "c3c9440c-df70-5890-42e3-b4589a0425c1"
-        }
-      ],
-      "key": "90fead2b-1b62-0644-e9f6-8b8448e38d59"
-    },
-    {
-      "title": "Rate",
-      "completeRole": "customer",
-      "order": 3,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "How happy are you with the work completed?",
-          "type": "faceRating",
-          "for": "fixer",
-          "required": true,
-          "key": "e7ce58f7-d1dc-8edd-3147-f6b4e7c983f8"
+          "key": "ead4e34f-14b2-c56a-838a-a32bc248b09d",
+          "title": "We've found that job satisfaction increases if a client is dealing with a real person rather than a company name. Your Blimpon profile name should be the name of the primary contact that clients will be working with in your company",
+          "type": "html",
+          "order": 1
         },
         {
-          "order": 2,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "d3c660fb-fb9b-2ac7-93bb-9adace3ee74c"
+          "key": "a17dbebf-3eb2-3a81-7ca6-44f0cb2610f7",
+          "title": "Real name on Blimpon profile",
+          "type": "confirmation",
+          "order": 2
         }
       ],
-      "key": "89b5e154-51e2-bf52-bff3-3991dad53d2b"
+      "key": "4300ca10-aa0c-2ea6-c321-6b019ed5245d",
+      "reviewRole": "reviewer",
+      "order": 1
+    },
+    {
+      "key": "cbf4f792-7411-883a-f0b6-aa3c41f990d6",
+      "title": "Photo",
+      "completeRole": "expert",
+      "stepItems": [
+        {
+          "key": "2f84ea42-234b-29d8-f8d7-026471edb898",
+          "title": "Your Blimpon profile photo should be a photo of you. Clients like to put a face to the person they're working with",
+          "type": "html",
+          "order": 1
+        },
+        {
+          "key": "ee007387-b25b-4cb9-5bd2-5be20be60182",
+          "title": "Photo of you on your Blimpon profile",
+          "type": "confirmation",
+          "order": 2
+        }
+      ],
+      "reviewRole": "reviewer",
+      "order": 2
+    },
+    {
+      "key": "ebc0a1e7-72c5-5f72-25e1-76893659cee9",
+      "title": "Bio",
+      "completeRole": "expert",
+      "stepItems": [
+        {
+          "key": "ec160451-6347-f3fd-b946-493b13c80253",
+          "title": "A clear and concise bio is one of the key things a client looks at to decide if they'd like to work with you. Sell yourself, your experience and skills",
+          "type": "html",
+          "order": 1
+        },
+        {
+          "key": "7e2b1868-4146-a1dd-f9e6-aa8468f2d435",
+          "title": "Compelling bio on your Blimpon profile",
+          "type": "confirmation",
+          "order": 2
+        }
+      ],
+      "reviewRole": "reviewer",
+      "order": 3
+    },
+    {
+      "key": "71832701-652d-c2a4-96f5-d54744eb1e7d",
+      "title": "Job template",
+      "completeRole": "expert",
+      "reviewRole": "reviewer",
+      "stepItems": [
+        {
+          "key": "08d8e2e7-1e50-3774-0b03-20ee46502d87",
+          "title": "Job templates let clients see the kind of services you can provide. The more the better if you offer a range of services and price points. To get started though you just need one job template that meets our publishing standards (these are shown when you're creating a job template)",
+          "type": "html",
+          "order": 1
+        },
+        {
+          "key": "f287e18c-0d87-b55c-1949-8a76527dc193",
+          "title": "At least one job template ready for publishing",
+          "type": "confirmation",
+          "order": 2
+        }
+      ],
+      "order": 4
+    },
+    {
+      "key": "38086b2a-bc16-c504-b377-c63223c5e564",
+      "title": "Testimonials",
+      "completeRole": "expert",
+      "reviewRole": "reviewer",
+      "stepItems": [
+        {
+          "key": "abc93a83-55e3-fe73-5db8-c67c4ddc91ac",
+          "title": "To list on the Blimpon marketplace you need three testimonials from previous clients. These are shown on your public profile to give clients confidence in your credibility ",
+          "type": "html",
+          "order": 1
+        },
+        {
+          "key": "84e4f05d-0a13-a5a2-1a06-614c011f3329",
+          "title": "First testimonial",
+          "type": "text",
+          "order": 2
+        },
+        {
+          "key": "24b7e828-173f-adb9-532c-bae739912e4a",
+          "title": "Client name, company and URL",
+          "type": "text",
+          "order": 3
+        },
+        {
+          "key": "4a16a2ac-c6af-2f95-f574-694144656407",
+          "title": "Second testimonial",
+          "type": "text",
+          "order": 4
+        },
+        {
+          "key": "87bf2fe1-f0a8-3cff-7537-53e8f7f29b36",
+          "title": "Client name, company and URL",
+          "type": "text",
+          "order": 5
+        },
+        {
+          "key": "321cd854-a02a-63f4-ad28-07bba1ce42ec",
+          "title": "Third testimonial",
+          "type": "text",
+          "order": 6
+        },
+        {
+          "key": "3ec39727-fcfa-1ef1-b257-bdd816cf202f",
+          "title": "Client name, company and URL",
+          "type": "text",
+          "order": 7
+        }
+      ],
+      "order": 5
+    },
+    {
+      "key": "8b56f2e8-f4b9-07de-0f20-dee75a57896b",
+      "title": "Review",
+      "completeRole": "reviewer",
+      "stepItems": [
+        {
+          "key": "125cef4f-5e18-5b16-0b57-45e34fb4e295",
+          "title": "Review the application, messaging the expert with any things they need to revise",
+          "type": "html",
+          "order": 1
+        }
+      ],
+      "order": 6
+    },
+    {
+      "key": "a963b00e-0996-460c-e122-6ae40953689c",
+      "title": "Set the expert up for publishing",
+      "completeRole": "reviewer",
+      "stepItems": [
+        {
+          "key": "bd278a55-9026-86a3-0ff3-847bae068d76",
+          "title": "Import testimonials",
+          "type": "confirmation",
+          "order": 1
+        },
+        {
+          "key": "af5341e5-590c-3a4a-1804-3d8580851f63",
+          "title": "Flag the user as authorised for publishing",
+          "type": "confirmation",
+          "order": 2
+        },
+        {
+          "key": "3933edfc-22bb-57fe-be2b-abac4b991475",
+          "title": "Publish their job templates",
+          "type": "confirmation",
+          "order": 3
+        },
+        {
+          "key": "7317ef68-9c14-e478-f5c7-5dfa2bda3663",
+          "title": "Check everything looks good",
+          "type": "confirmation",
+          "order": 4
+        },
+        {
+          "key": "b1f4304b-a9c7-9a26-d2f4-a862daf73d71",
+          "title": "Message the expert to tell them the good news",
+          "type": "confirmation",
+          "order": 5
+        }
+      ],
+      "order": 7
     }
   ],
-  "collectionId": "",
   "title": "Marketplace application",
-  "description": "",
-  "id": "477ac332-b5af-47dc-892f-0bf523023636"
+  "description": "Apply as an expert to the Blimpon marketplace to reach our over 80,000 shop owners."
 }
