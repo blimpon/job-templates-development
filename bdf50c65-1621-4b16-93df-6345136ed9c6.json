@@ -26,6 +26,36 @@
           "for": "fixer"
         }
       ]
+    },
+    {
+      "key": "77e2c460-81ae-1b69-179c-61c4ed1121e5",
+      "title": "Rate me again",
+      "order": 2,
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "key": "5c450b1b-ac65-e570-71c0-283620e52d63",
+          "title": "Rate me",
+          "order": 1,
+          "type": "faceRating",
+          "for": "customer"
+        }
+      ]
+    },
+    {
+      "key": "c311148c-cc2a-a7c5-2a48-9259c2bcb8ec",
+      "title": "Rate yourself",
+      "order": 3,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "989259c9-65ae-f109-a5c7-645148fed883",
+          "title": "Rate you",
+          "order": 1,
+          "type": "faceRating",
+          "for": "customer"
+        }
+      ]
     }
   ],
   "collectionId": "",
