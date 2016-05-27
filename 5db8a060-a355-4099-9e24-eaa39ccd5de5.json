@@ -21,62 +21,70 @@
     {
       "title": "Pay",
       "completeRole": "customer",
-      "order": 1,
       "stepItems": [
         {
-          "order": 1,
           "title": "Payment",
           "type": "pay",
           "totalUSD": 180,
           "required": true,
-          "key": "ed52dc93-f917-3a71-2c18-aecc5a959cb5"
+          "key": "ed52dc93-f917-3a71-2c18-aecc5a959cb5",
+          "order": 1
         }
       ],
-      "key": "9f9d55e0-2339-7d99-73fb-77cf2a3b848a"
+      "key": "9f9d55e0-2339-7d99-73fb-77cf2a3b848a",
+      "order": 1
     },
     {
       "title": "Do the work",
       "completeRole": "fixer",
-      "order": 2,
       "stepItems": [
         {
-          "order": 1,
           "title": "Has the work been done?",
           "type": "confirmation",
           "required": true,
-          "key": "dca80a04-17e6-346e-f924-11229533c5a6"
+          "key": "dca80a04-17e6-346e-f924-11229533c5a6",
+          "order": 1
         }
       ],
-      "key": "6cab329d-64cb-9a28-c86e-213b46865604"
+      "key": "6cab329d-64cb-9a28-c86e-213b46865604",
+      "order": 2
     },
     {
       "title": "Rate",
       "completeRole": "customer",
-      "order": 3,
       "stepItems": [
         {
-          "order": 1,
           "title": "How happy are you with the work completed?",
           "type": "faceRating",
           "for": "fixer",
           "required": true,
-          "key": "c59c406e-79de-39b8-8f76-69baa2b3ade8"
+          "key": "c59c406e-79de-39b8-8f76-69baa2b3ade8",
+          "order": 1
         },
         {
-          "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "dude",
+          "marketplace": true,
+          "percentageOfBalance": "56.45",
+          "key": "42f883f3-e6b4-4e01-8c28-0d3295b40ef2",
+          "order": 2
+        },
+        {
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
           "percentageOfBalance": 100,
-          "key": "7b3cb7fd-d56c-c711-3f9a-6995d74875db"
+          "key": "7b3cb7fd-d56c-c711-3f9a-6995d74875db",
+          "order": 3
         }
       ],
-      "key": "af7b8035-ef20-bfd1-279e-4054f9e70918"
+      "key": "af7b8035-ef20-bfd1-279e-4054f9e70918",
+      "order": 3
     }
   ],
   "title": "New job template",
   "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
-  "id": "5db8a060-a355-4099-9e24-eaa39ccd5de5",
   "jobTemplateImageId": "0594d5f9-9541-4c62-b1d8-c66e534e7600",
   "collectionId": "7abfbc51-913b-4d47-b7b3-4aa62eb0e476"
 }
