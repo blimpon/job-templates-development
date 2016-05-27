@@ -66,7 +66,7 @@
           "type": "payout",
           "role": "dude",
           "marketplace": true,
-          "percentageOfBalance": "56.45",
+          "percentageOfBalance": 56.45,
           "key": "42f883f3-e6b4-4e01-8c28-0d3295b40ef2",
           "order": 2
         },
