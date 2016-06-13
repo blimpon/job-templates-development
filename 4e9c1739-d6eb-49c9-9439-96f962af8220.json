@@ -13,7 +13,7 @@
   ],
   "steps": [
     {
-      "title": "Pay",
+      "title": "Pay one",
       "completeRole": "customer",
       "order": 1,
       "stepItems": [
@@ -21,7 +21,7 @@
           "order": 1,
           "title": "Payment",
           "type": "pay",
-          "totalUSD": "200",
+          "totalUSD": "125",
           "required": true,
           "key": "92da09ec-6210-0f7c-c80e-ee6ea1b0e3bd"
         }
