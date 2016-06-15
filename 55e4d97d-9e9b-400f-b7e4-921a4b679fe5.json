@@ -7,9 +7,15 @@
     },
     {
       "name": "fixer",
-      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
       "admin": true,
       "key": "e0768923-452f-bf81-e288-9b7ec0733232"
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "key": "7ae07449-7bd6-4dd4-8e69-2b39be671f37",
+      "admin": true
     }
   ],
   "steps": [
