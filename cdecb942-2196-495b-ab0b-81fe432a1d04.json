@@ -13,63 +13,36 @@
   ],
   "steps": [
     {
-      "title": "Pay",
-      "completeRole": "customer",
+      "key": "b31eb0bd-92b4-6cd4-8680-1e426c2ee1a5",
+      "title": "Create quote request",
       "order": 1,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": "100",
-          "required": true,
-          "key": "687f9cc1-8181-164b-6cd8-fb6c526e5d32"
-        }
-      ],
-      "key": "345bc5cf-5620-891b-b32e-991cd75619e8"
-    },
-    {
-      "title": "Do the work",
-      "completeRole": "fixer",
-      "order": 2,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Has the work been done?",
-          "type": "confirmation",
-          "required": true,
-          "key": "0dc9b6cd-5fff-aed1-4f6a-654c8fae2fea"
-        }
-      ],
-      "key": "5735a88d-fd07-b604-7629-b43d6b31eca3"
-    },
-    {
-      "title": "Rate",
       "completeRole": "customer",
-      "order": 3,
       "stepItems": [
         {
-          "order": 1,
-          "title": "How happy are you with the work completed?",
-          "type": "faceRating",
-          "for": "fixer",
-          "required": true,
-          "key": "d601cc20-0102-17b8-9611-992103e2a800"
+          "key": "a172a3e1-5c7f-e241-9e48-718b6ce2f210",
+          "title": "Which website is this for?",
+          "order": 1
         },
         {
-          "order": 2,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "407044fc-93ae-d159-7813-b0bfec7e91fa"
+          "key": "91d592c7-77c9-ddb6-2dd7-b06a4c013c45",
+          "title": "What would you like done?",
+          "order": 2
+        },
+        {
+          "key": "5ae5d918-c802-5e2e-e8d9-0357f08183e3",
+          "title": "What's your budget?",
+          "order": 3
         }
-      ],
-      "key": "9760e1d6-3901-055d-ae3d-4ccc3b213c2f"
+      ]
+    },
+    {
+      "key": "e70fb4f1-b96d-6409-eb13-c0be624eedf5",
+      "title": "Put together a quote",
+      "order": 2,
+      "completeRole": "fixer"
     }
   ],
-  "collectionId": "",
-  "description": "Test no step items",
-  "title": "Test no step items",
-  "id": "cdecb942-2196-495b-ab0b-81fe432a1d04"
+  "title": "Quote request",
+  "description": "",
+  "id": "dbf1a2c2-79ac-4042-91e5-40df2d6511e3"
 }
