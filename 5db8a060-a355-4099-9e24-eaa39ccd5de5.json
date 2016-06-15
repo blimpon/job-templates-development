@@ -14,7 +14,13 @@
       "key": "524d9fa9-ca75-2aef-4d7c-1ea61816f2fc",
       "name": "dude",
       "admin": true,
-      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab"
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e"
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "key": "d264f774-9577-4893-a2f2-45a77f2e15f4",
+      "admin": true
     }
   ],
   "steps": [
@@ -62,13 +68,22 @@
           "order": 1
         },
         {
+          "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "marketplace",
+          "marketplace": true,
+          "percentageOfBalance": 15,
+          "key": "cccc145e-88df-4af7-ae8c-94903b61f6e0"
+        },
+        {
           "title": "Payout marketplace",
           "type": "payout",
           "role": "dude",
           "marketplace": true,
           "percentageOfBalance": 56.45,
           "key": "42f883f3-e6b4-4e01-8c28-0d3295b40ef2",
-          "order": 2
+          "order": 3
         },
         {
           "title": "Payout fixer",
@@ -76,7 +91,7 @@
           "role": "fixer",
           "percentageOfBalance": 100,
           "key": "7b3cb7fd-d56c-c711-3f9a-6995d74875db",
-          "order": 3
+          "order": 4
         }
       ],
       "key": "af7b8035-ef20-bfd1-279e-4054f9e70918",
