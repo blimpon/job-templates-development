@@ -7,9 +7,15 @@
     },
     {
       "name": "fixer",
-      "defaultUser": "c44173ab-8fa3-4802-abba-ae7d18ba86ab",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
       "admin": true,
       "key": "b5bd0640-3380-b0e5-4a92-42bfb86d2506"
+    },
+    {
+      "name": "marketplace",
+      "defaultUser": "55538423-5dc5-441e-841c-551152483f7e",
+      "key": "628b6c38-78c2-4198-82bd-bf9f5517ae8d",
+      "admin": true
     }
   ],
   "steps": [
@@ -59,6 +65,15 @@
         },
         {
           "order": 2,
+          "title": "Payout marketplace",
+          "type": "payout",
+          "role": "marketplace",
+          "marketplace": true,
+          "percentageOfBalance": 15,
+          "key": "222dab0d-24df-4a3b-adc4-049f2c1ddc4e"
+        },
+        {
+          "order": 3,
           "title": "Payout fixer",
           "type": "payout",
           "role": "fixer",
