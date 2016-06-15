@@ -15,52 +15,51 @@
     {
       "key": "8aae2854-78bd-c1db-904a-3a047172d181",
       "title": "Rate me once",
-      "order": 1,
       "completeRole": "customer",
       "stepItems": [
         {
           "key": "c7a9a424-69bd-62a7-da12-81eb4ec9c03d",
           "title": "Rate me",
-          "order": 1,
           "type": "faceRating",
-          "for": "fixer"
+          "for": "fixer",
+          "order": 1
         }
-      ]
+      ],
+      "order": 1
     },
     {
       "key": "77e2c460-81ae-1b69-179c-61c4ed1121e5",
       "title": "Rate me again",
-      "order": 2,
       "completeRole": "fixer",
       "stepItems": [
         {
           "key": "5c450b1b-ac65-e570-71c0-283620e52d63",
           "title": "Rate me",
-          "order": 1,
           "type": "faceRating",
-          "for": "customer"
+          "for": "customer",
+          "order": 1
         }
-      ]
+      ],
+      "order": 2
     },
     {
       "key": "c311148c-cc2a-a7c5-2a48-9259c2bcb8ec",
       "title": "Rate yourself",
-      "order": 3,
       "completeRole": "customer",
       "stepItems": [
         {
           "key": "989259c9-65ae-f109-a5c7-645148fed883",
           "title": "Rate you",
-          "order": 1,
           "type": "faceRating",
-          "for": "customer"
+          "for": "customer",
+          "order": 1
         }
-      ]
+      ],
+      "order": 3
     }
   ],
   "collectionId": "1039cd5a-9501-43ce-b05e-1dd9126da592",
   "title": "Bunch of ratings",
   "description": "asdasdasd",
-  "id": "bdf50c65-1621-4b16-93df-6345136ed9c6",
   "jobTemplateImageId": "24f4bd16-0f8a-456a-a82e-e50885ad032e"
 }
