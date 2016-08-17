@@ -13,59 +13,21 @@
   ],
   "steps": [
     {
-      "title": "Pay",
-      "completeRole": "customer",
+      "key": "48ce9c0c-17bf-7897-b476-3f118c042c4f",
+      "title": "Send emails",
       "order": 1,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": "0",
-          "required": true,
-          "key": "f6ee5b81-1b4b-712d-5f13-f94ca54795fa"
-        }
-      ],
-      "key": "ac5c6314-8567-3fc8-1598-2c27dc8d9350"
-    },
-    {
-      "title": "Do the work",
-      "completeRole": "fixer",
-      "order": 2,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Has the work been done?",
-          "type": "confirmation",
-          "required": true,
-          "key": "451eb000-34a3-339c-ad60-004ab8d5ce87"
-        }
-      ],
-      "key": "3eee7f91-28fe-9221-3516-eead0d7173d5"
-    },
-    {
-      "title": "Rate",
       "completeRole": "customer",
-      "order": 3,
       "stepItems": [
         {
+          "key": "c72b95d1-811f-1f4e-0be3-48b9f061045c",
+          "title": "Send email",
           "order": 1,
-          "title": "How happy are you with the work completed?",
-          "type": "faceRating",
-          "for": "fixer",
-          "required": true,
-          "key": "91f41285-940a-3e3a-2b08-f2df179ae91c"
-        },
-        {
-          "order": 2,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "39ab7430-efd4-057b-8e5d-01f7334d075d"
+          "type": "sendemail",
+          "to": "customer",
+          "subject": "Hello",
+          "body": "Hi there"
         }
-      ],
-      "key": "a70dacdf-1e7b-1658-4a28-acbc47e00012"
+      ]
     }
   ],
   "collectionId": "",
