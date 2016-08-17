@@ -15,23 +15,22 @@
     {
       "key": "48ce9c0c-17bf-7897-b476-3f118c042c4f",
       "title": "Send emails",
-      "order": 1,
       "completeRole": "customer",
       "stepItems": [
         {
           "key": "c72b95d1-811f-1f4e-0be3-48b9f061045c",
           "title": "Send email",
-          "order": 1,
           "type": "sendemail",
           "to": "customer",
-          "subject": "Hello",
-          "body": "Hi there"
+          "subject": "Hello {{ job.title }}",
+          "body": "Hi there",
+          "order": 1
         }
-      ]
+      ],
+      "order": 1
     }
   ],
   "collectionId": "",
   "title": "Sending emails",
-  "description": "",
-  "id": "1f93377f-04f6-455a-8ba6-71f0cc7694d6"
+  "description": ""
 }
