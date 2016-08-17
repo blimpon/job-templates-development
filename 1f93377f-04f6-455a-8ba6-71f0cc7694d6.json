@@ -23,7 +23,7 @@
           "type": "sendemail",
           "to": "customer",
           "subject": "{{ job.title }} job received",
-          "body": "{% assign split_name = recipient.name | split: ' ' %}\n\nHi {{ split_name.first }}\n\nWe've received your {{ job.title }} job.\n\nWhat happens now?\n<ul><li>\nIf you haven't already, grant our fixer access to your website admin</li><li>\nTypically your fixes will take two weeks to be completely wrapped up</li><li>\nFor the fastest response to any questions log in to Blimpon, go to the job and send a message there</li><li>\nOnce we're finished you'll receive a message detailing everything we've done</li></ul>\n",
+          "body": "{% assign split_name = recipient.name | split: ' ' %}\n\nHi {{ split_name.first }}\n\nWe've received your {{ job.title }} job.\n\nWhat happens now?\n<ul><li>If you haven't already, grant our fixer access to your website admin</li>\n<li>Typically your fixes will take two weeks to be completely wrapped up</li>\n<li>For the fastest response to any questions log in to Blimpon, go to the job and send a message there</li>\n<li>Once we're finished you'll receive a message detailing everything we've done</li>\n</ul>\n",
           "order": 1
         }
       ],
