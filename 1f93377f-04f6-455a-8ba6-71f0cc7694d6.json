@@ -22,7 +22,7 @@
           "title": "Send email",
           "type": "sendemail",
           "to": "customer",
-          "subject": "Hello {{ recipient.name }} on {{ job.title }}",
+          "subject": "{% assign split_name = recipient.name | split: ' ' %}Hello {{ split_name.first }} on {{ job.title }}",
           "body": "Hi there",
           "order": 1
         }
