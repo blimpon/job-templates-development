@@ -22,7 +22,7 @@
           "title": "Send email",
           "type": "sendemail",
           "to": "customer",
-          "subject": "Hello {{ job.title }}",
+          "subject": "Hello {{ recipient.name }} on {{ job.title }}",
           "body": "Hi there",
           "order": 1
         }
