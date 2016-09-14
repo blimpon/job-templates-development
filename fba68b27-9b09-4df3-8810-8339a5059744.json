@@ -1,0 +1,74 @@
+{
+  "title": "new template {{ step2.stepItem1 }}",
+  "roles": [
+    {
+      "name": "customer",
+      "key": "b7423929-3d9f-7e75-3c6c-f8641e003f88"
+    },
+    {
+      "name": "fixer",
+      "defaultUser": "dad9da7b-168d-4707-a940-0e0846e205e8",
+      "admin": true,
+      "key": "ff1ab374-4e02-9636-7bdc-583f018eb1b4"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pay",
+      "completeRole": "customer",
+      "order": 1,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Payment",
+          "type": "pay",
+          "totalUSD": 180,
+          "required": true,
+          "key": "1fca2414-4a24-6969-f8ba-dc23d8a5f70c"
+        }
+      ],
+      "key": "721c9f8b-b4b5-a6dc-550d-bb791b644486"
+    },
+    {
+      "title": "Do the work",
+      "completeRole": "fixer",
+      "order": 2,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Has the work been done?",
+          "type": "confirmation",
+          "required": true,
+          "key": "9390ee37-456d-26bf-332b-4c59e7240747"
+        }
+      ],
+      "key": "dabd66de-aebf-a391-3b2a-63703c02d905"
+    },
+    {
+      "title": "Rate",
+      "completeRole": "customer",
+      "order": 3,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "How happy are you with the work completed?",
+          "type": "faceRating",
+          "for": "fixer",
+          "required": true,
+          "key": "95469ee7-971c-d8f1-efee-0d8a91ae507d"
+        },
+        {
+          "order": 2,
+          "title": "Payout fixer",
+          "type": "payout",
+          "role": "fixer",
+          "percentageOfBalance": 100,
+          "key": "8bca5a23-f916-f2a4-3631-25cae21e1e7b"
+        }
+      ],
+      "key": "4ea85d7b-8b4b-878d-ea1a-aa125cec55cd"
+    }
+  ],
+  "id": "fba68b27-9b09-4df3-8810-8339a5059744",
+  "description": "asdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fsasdalks mdlkalsm lkasfm amklsmfk amklsmfkl mlaksmklf mklaskmlf kmlamskmf akms klfam fs"
+}
