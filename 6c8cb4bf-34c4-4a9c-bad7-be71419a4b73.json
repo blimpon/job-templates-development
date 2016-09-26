@@ -66,6 +66,19 @@
         }
       ],
       "key": "7ff52a9a-3dd9-1571-e175-ea8a2ea4c398"
+    },
+    {
+      "key": "77cd6cbf-8276-0163-89f2-d009e6841ee1",
+      "title": "asdasdasd",
+      "order": 4,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "4a93e83b-b0ef-5712-ef23-708310a2088f",
+          "title": "asdasdasd",
+          "order": 1
+        }
+      ]
     }
   ],
   "collectionId": "",
