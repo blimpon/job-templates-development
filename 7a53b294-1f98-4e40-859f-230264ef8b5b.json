@@ -13,25 +13,9 @@
   ],
   "steps": [
     {
-      "title": "Pay",
-      "completeRole": "customer",
-      "order": 1,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": "123",
-          "required": true,
-          "key": "e49e4449-9afc-83b4-cdfa-4b213ea02812"
-        }
-      ],
-      "key": "bafe9820-defd-02f0-e618-5bfe0d66e84c"
-    },
-    {
       "title": "Do the work",
       "completeRole": "fixer",
-      "order": 2,
+      "order": 1,
       "stepItems": [
         {
           "order": 1,
@@ -42,30 +26,6 @@
         }
       ],
       "key": "42e2bedf-56c1-16b8-6c08-d1b32b6a0cd8"
-    },
-    {
-      "title": "Rate",
-      "completeRole": "customer",
-      "order": 3,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "How happy are you with the work completed?",
-          "type": "faceRating",
-          "for": "fixer",
-          "required": true,
-          "key": "35065f70-b50c-59e8-e85c-19366bdcc8d1"
-        },
-        {
-          "order": 2,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "e4910e3f-b4a9-82fb-0708-d355221fea77"
-        }
-      ],
-      "key": "9086e21d-1e3f-aa9c-4020-79c893787fa7"
     }
   ],
   "collectionId": "",
