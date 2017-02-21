@@ -19,7 +19,7 @@
       "stepItems": [
         {
           "order": 1,
-          "title": "Has the work been done?",
+          "title": "Proposals",
           "type": "proposal",
           "required": true,
           "key": "0775acc9-7a04-3a9e-4ef2-f8a1cf7eb908"
