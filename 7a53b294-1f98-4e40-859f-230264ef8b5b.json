@@ -26,6 +26,19 @@
         }
       ],
       "key": "42e2bedf-56c1-16b8-6c08-d1b32b6a0cd8"
+    },
+    {
+      "key": "f4f84e2a-a883-1b65-7e21-6ddc6432f940",
+      "title": "nothing really",
+      "order": 2,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "6a7fa488-340b-571d-e989-7eafca608e25",
+          "title": "the",
+          "order": 1
+        }
+      ]
     }
   ],
   "collectionId": "",
