@@ -15,22 +15,22 @@
     {
       "title": "Do the work",
       "completeRole": "fixer",
-      "order": 1,
       "stepItems": [
         {
-          "order": 1,
           "title": "Proposals",
           "type": "proposal",
           "required": true,
-          "key": "0775acc9-7a04-3a9e-4ef2-f8a1cf7eb908"
+          "key": "0775acc9-7a04-3a9e-4ef2-f8a1cf7eb908",
+          "order": 1
         }
       ],
-      "key": "42e2bedf-56c1-16b8-6c08-d1b32b6a0cd8"
+      "key": "42e2bedf-56c1-16b8-6c08-d1b32b6a0cd8",
+      "approveLabel": "Start the job",
+      "order": 1
     },
     {
       "key": "f4f84e2a-a883-1b65-7e21-6ddc6432f940",
       "title": "nothing really",
-      "order": 2,
       "completeRole": "customer",
       "stepItems": [
         {
@@ -38,11 +38,11 @@
           "title": "the",
           "order": 1
         }
-      ]
+      ],
+      "order": 2
     }
   ],
   "collectionId": "",
   "title": "this",
-  "description": "",
-  "id": "7a53b294-1f98-4e40-859f-230264ef8b5b"
+  "description": ""
 }
