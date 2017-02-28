@@ -23,6 +23,13 @@
           "type": "confirmation",
           "required": true,
           "key": "f51629f8-e382-74b6-8641-5609296da59b"
+        },
+        {
+          "key": "9bf0903d-9a2e-55e8-2a95-bf1bd2857504",
+          "title": "this html title",
+          "order": 2,
+          "type": "html",
+          "description": "description of the html"
         }
       ],
       "key": "83d117d3-7dd6-20c8-93bc-8f23e7eb37b2"
