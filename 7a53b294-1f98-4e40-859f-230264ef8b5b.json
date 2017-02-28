@@ -21,7 +21,7 @@
       "stepItems": [
         {
           "key": "72019990-b461-545d-8e33-579316e805a9",
-          "title": "Enter details of the proposal",
+          "title": "Enter details of the proposal below",
           "order": 1,
           "type": "proposal"
         }
