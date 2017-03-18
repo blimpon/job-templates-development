@@ -15,14 +15,13 @@
     {
       "title": "Create new job",
       "completeRole": "customer",
-      "order": 1,
       "stepItems": [
         {
-          "order": 1,
           "title": "Title",
           "type": "text",
           "required": true,
-          "key": "1db2a8ca-ae12-edd5-4cd1-4a967cfeb31d"
+          "key": "1db2a8ca-ae12-edd5-4cd1-4a967cfeb31d",
+          "order": 1
         },
         {
           "key": "c72b739a-ad7f-a4e9-92d5-7ca173d7885a",
@@ -32,16 +31,16 @@
         {
           "key": "fdbc5930-c908-9970-229b-b9074c644a0b",
           "title": "Change job name",
-          "order": 3,
-          "type": "changeJobName",
-          "changeJobNameTo": "I like big boobs"
+          "type": "changeJobTitle",
+          "changeJobNameTo": "I like big boobs",
+          "order": 3
         }
       ],
-      "key": "daee27d5-bbb2-ed4c-0bf7-d5d88daab95d"
+      "key": "daee27d5-bbb2-ed4c-0bf7-d5d88daab95d",
+      "order": 1
     }
   ],
   "collectionId": "",
   "title": "Create new job",
-  "description": "",
-  "id": "704066a9-f9f0-4870-8cd7-956fc2bf9916"
+  "description": ""
 }
