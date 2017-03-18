@@ -22,30 +22,40 @@
           "key": "4f064e17-3df7-23e5-3ced-d53d1a5b575a",
           "title": "Title",
           "order": 1
-        },
+        }
+      ]
+    },
+    {
+      "key": "2b0567a1-0a51-21e3-d3af-a9a9e59ff52c",
+      "title": "Details",
+      "order": 2,
+      "completeRole": "customer",
+      "stepItems": [
         {
-          "key": "466467d9-e4b4-c205-d330-2ac2e3eba678",
+          "key": "44518100-3946-0727-858e-258938a8795b",
           "title": "Description",
-          "order": 2
+          "order": 1,
+          "type": "text",
+          "required": false
         },
         {
-          "key": "866c8186-7522-df24-3421-05122447f962",
+          "key": "9d4e2077-c3e6-091f-e0b1-f10ccd97c842",
           "title": "Change job title",
-          "order": 3,
+          "order": 2,
           "type": "changeJobTitle",
           "changeJobTitleTo": "{{ step1.stepItem1 }}"
         }
       ]
     },
     {
-      "key": "2b0567a1-0a51-21e3-d3af-a9a9e59ff52c",
-      "title": "this other stuff",
-      "order": 2,
-      "completeRole": "fixer",
+      "key": "812911ba-90e5-2ded-285e-18608654b882",
+      "title": "Final",
+      "order": 3,
+      "completeRole": "customer",
       "stepItems": [
         {
-          "key": "44518100-3946-0727-858e-258938a8795b",
-          "title": "done",
+          "key": "4920f89d-88ec-2442-45ec-5fd79c984b04",
+          "title": "confirm",
           "order": 1,
           "type": "confirmation"
         }
