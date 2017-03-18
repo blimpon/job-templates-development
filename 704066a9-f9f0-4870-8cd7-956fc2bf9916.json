@@ -31,7 +31,7 @@
         },
         {
           "key": "47c7d38c-e0aa-6764-3792-1301647290a4",
-          "title": "Change job name",
+          "title": "Change job named",
           "order": 3,
           "type": "changeJobName"
         }
