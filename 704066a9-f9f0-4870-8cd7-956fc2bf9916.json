@@ -30,11 +30,10 @@
           "order": 2
         },
         {
-          "key": "47c7d38c-e0aa-6764-3792-1301647290a4",
-          "title": "Change job named",
+          "key": "a39a679f-543c-f2b5-d1cc-b4628d9ccddf",
+          "title": "Change job name",
           "order": 3,
-          "type": "faceRating",
-          "for": "customer"
+          "type": "changeJobName"
         }
       ],
       "key": "daee27d5-bbb2-ed4c-0bf7-d5d88daab95d"
