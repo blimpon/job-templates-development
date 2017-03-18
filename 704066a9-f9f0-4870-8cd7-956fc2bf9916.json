@@ -28,6 +28,12 @@
           "key": "c72b739a-ad7f-a4e9-92d5-7ca173d7885a",
           "title": "Description",
           "order": 2
+        },
+        {
+          "key": "47c7d38c-e0aa-6764-3792-1301647290a4",
+          "title": "Change job name",
+          "order": 3,
+          "type": "changeJobName"
         }
       ],
       "key": "daee27d5-bbb2-ed4c-0bf7-d5d88daab95d"
