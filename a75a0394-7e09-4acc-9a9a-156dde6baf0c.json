@@ -13,59 +13,29 @@
   ],
   "steps": [
     {
-      "title": "Pay",
-      "completeRole": "customer",
+      "key": "f541545f-a04c-9ed6-425d-399caf2ce2ca",
+      "title": "Create new job",
       "order": 1,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": 180,
-          "required": true,
-          "key": "0fa44782-bbc0-132b-2ba6-c7bf1724cb2f"
-        }
-      ],
-      "key": "e9980338-4df0-1085-152e-71c1902fd174"
-    },
-    {
-      "title": "Do the work",
-      "completeRole": "fixer",
-      "order": 2,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Has the work been done?",
-          "type": "confirmation",
-          "required": true,
-          "key": "a9f491be-0c8b-3d9f-4c02-48c1ab5d96b5"
-        }
-      ],
-      "key": "d25fda22-c344-6c47-2c55-d6095b499501"
-    },
-    {
-      "title": "Rate",
       "completeRole": "customer",
-      "order": 3,
       "stepItems": [
         {
-          "order": 1,
-          "title": "How happy are you with the work completed?",
-          "type": "faceRating",
-          "for": "fixer",
-          "required": true,
-          "key": "f46d027e-859d-5f5f-5c73-5d62fb1a98f0"
+          "key": "4f064e17-3df7-23e5-3ced-d53d1a5b575a",
+          "title": "Title",
+          "order": 1
         },
         {
-          "order": 2,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "8358513c-03de-12ba-c471-b6c5794f0e31"
+          "key": "466467d9-e4b4-c205-d330-2ac2e3eba678",
+          "title": "Description",
+          "order": 2
+        },
+        {
+          "key": "866c8186-7522-df24-3421-05122447f962",
+          "title": "Change job title",
+          "order": 3,
+          "type": "changeJobTitle",
+          "changeJobTitleTo": "I like boobs"
         }
-      ],
-      "key": "86fed89c-08b9-7aae-9fe3-0373a65ce1c6"
+      ]
     }
   ],
   "collectionId": "",
