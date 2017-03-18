@@ -14,7 +14,7 @@
   "steps": [
     {
       "title": "Create new job",
-      "completeRole": "fixer",
+      "completeRole": "customer",
       "order": 1,
       "stepItems": [
         {
