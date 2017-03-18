@@ -33,7 +33,7 @@
           "title": "Change job title",
           "order": 3,
           "type": "changeJobTitle",
-          "changeJobTitleTo": "I like boobs"
+          "changeJobTitleTo": "{{ step1.stepItem1 }}"
         }
       ]
     },
