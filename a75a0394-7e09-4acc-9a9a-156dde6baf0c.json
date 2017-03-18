@@ -49,15 +49,15 @@
     },
     {
       "key": "812911ba-90e5-2ded-285e-18608654b882",
-      "title": "Final",
+      "title": "Proposal",
       "order": 3,
-      "completeRole": "customer",
+      "completeRole": "fixer",
       "stepItems": [
         {
           "key": "4920f89d-88ec-2442-45ec-5fd79c984b04",
-          "title": "confirm",
+          "title": "Create proposal",
           "order": 1,
-          "type": "confirmation"
+          "type": "proposal"
         }
       ]
     }
