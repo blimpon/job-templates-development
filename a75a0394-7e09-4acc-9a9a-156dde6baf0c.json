@@ -36,6 +36,20 @@
           "changeJobTitleTo": "I like boobs"
         }
       ]
+    },
+    {
+      "key": "2b0567a1-0a51-21e3-d3af-a9a9e59ff52c",
+      "title": "this other stuff",
+      "order": 2,
+      "completeRole": "fixer",
+      "stepItems": [
+        {
+          "key": "44518100-3946-0727-858e-258938a8795b",
+          "title": "done",
+          "order": 1,
+          "type": "confirmation"
+        }
+      ]
     }
   ],
   "collectionId": "",
