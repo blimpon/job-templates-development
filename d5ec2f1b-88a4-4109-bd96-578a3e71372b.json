@@ -13,59 +13,45 @@
   ],
   "steps": [
     {
-      "title": "Pay",
-      "completeRole": "customer",
+      "key": "5a977c2e-096a-9f9f-d604-b77026ce4914",
+      "title": "First",
       "order": 1,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Payment",
-          "type": "pay",
-          "totalUSD": 180,
-          "required": true,
-          "key": "019d1e99-02cf-3b7d-4345-b73b68f025e4"
-        }
-      ],
-      "key": "31c33b91-fb53-b332-ba2e-f40825082f66"
-    },
-    {
-      "title": "Do the work",
-      "completeRole": "fixer",
-      "order": 2,
-      "stepItems": [
-        {
-          "order": 1,
-          "title": "Has the work been done?",
-          "type": "confirmation",
-          "required": true,
-          "key": "9dfd67fc-bb33-f64f-6d18-784511d69de5"
-        }
-      ],
-      "key": "9098b54f-3896-8627-6982-a3c64d230aac"
-    },
-    {
-      "title": "Rate",
       "completeRole": "customer",
-      "order": 3,
       "stepItems": [
         {
-          "order": 1,
-          "title": "How happy are you with the work completed?",
-          "type": "faceRating",
-          "for": "fixer",
-          "required": true,
-          "key": "ba1ca39a-a053-765d-4a8d-d9defc12f0d9"
+          "key": "d1812f0c-e2b6-4313-421e-0d8f903514fd",
+          "title": "Question 1",
+          "order": 1
         },
         {
-          "order": 2,
-          "title": "Payout fixer",
-          "type": "payout",
-          "role": "fixer",
-          "percentageOfBalance": 100,
-          "key": "bda3f2d1-0bca-69ba-736d-44edfe00ffcb"
+          "key": "785262c7-b528-160e-2293-089d08d52b94",
+          "title": "Question 2",
+          "order": 2
+        },
+        {
+          "key": "c28b19d8-04c4-3f05-0fa3-0e999e89bfb5",
+          "title": "Question 3",
+          "order": 3
         }
-      ],
-      "key": "887069e0-6953-60f6-be56-a80705b1070d"
+      ]
+    },
+    {
+      "key": "17c64e09-fcea-60eb-c4df-fad2f2ac37df",
+      "title": "Second",
+      "order": 2,
+      "completeRole": "customer",
+      "stepItems": [
+        {
+          "key": "e8cca11d-6a3f-2148-fda5-e7df139fbf09",
+          "title": "Question 4",
+          "order": 1
+        },
+        {
+          "key": "774aef5d-119c-0c41-90c9-bb1fc1c3989b",
+          "title": "Question 5",
+          "order": 2
+        }
+      ]
     }
   ],
   "collectionId": "",
