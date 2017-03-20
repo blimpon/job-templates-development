@@ -22,6 +22,13 @@
           "key": "4f064e17-3df7-23e5-3ced-d53d1a5b575a",
           "title": "Title",
           "order": 1
+        },
+        {
+          "key": "b90604de-d52e-4e30-0657-9c8148434b7c",
+          "title": "Do you have an expert you'd like to work with?",
+          "order": 2,
+          "type": "fillRole",
+          "role": "fixer"
         }
       ]
     },
