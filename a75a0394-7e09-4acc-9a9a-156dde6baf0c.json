@@ -25,7 +25,7 @@
         },
         {
           "key": "b90604de-d52e-4e30-0657-9c8148434b7c",
-          "title": "Do you have an expert you'd like to work with?",
+          "title": "Who do you want to work with?",
           "order": 2,
           "type": "fillRole",
           "role": "fixer"
