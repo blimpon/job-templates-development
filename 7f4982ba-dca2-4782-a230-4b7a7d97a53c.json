@@ -1,0 +1,75 @@
+{
+  "roles": [
+    {
+      "name": "customer",
+      "key": "5c8c6a7e-3a6d-5971-df54-8cbae764408e"
+    },
+    {
+      "name": "fixer",
+      "admin": true,
+      "defaultUser": "da5944fc-b096-49bf-999f-1169d9e7ffd3",
+      "key": "663f519e-3996-7b6b-89e4-83f40d211995"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pay",
+      "completeRole": "customer",
+      "order": 1,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Payment",
+          "type": "pay",
+          "totalUSD": "12401230120312310231023",
+          "required": true,
+          "key": "7eb90228-a4f0-819c-bccf-f73badc422b2"
+        }
+      ],
+      "key": "4ad192dd-72fe-2ff4-c218-aa2035f54059"
+    },
+    {
+      "title": "Do the work",
+      "completeRole": "fixer",
+      "order": 2,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "Has the work been done?",
+          "type": "confirmation",
+          "required": true,
+          "key": "de873f50-18b1-9218-176e-c92f920f95e8"
+        }
+      ],
+      "key": "af8da39c-b309-595b-bc39-6ff05da64f62"
+    },
+    {
+      "title": "Rate",
+      "completeRole": "customer",
+      "order": 3,
+      "stepItems": [
+        {
+          "order": 1,
+          "title": "How happy are you with the work completed?",
+          "type": "faceRating",
+          "for": "fixer",
+          "required": true,
+          "key": "d0f36a44-c8bf-03be-8082-bf7c6d9da56e"
+        },
+        {
+          "order": 2,
+          "title": "Payout fixer",
+          "type": "payout",
+          "role": "fixer",
+          "percentageOfBalance": 100,
+          "key": "d5d8b51f-988a-c2c8-7675-62fc765a4667"
+        }
+      ],
+      "key": "898d312c-0ca5-0f04-d545-8bed36afc635"
+    }
+  ],
+  "collectionId": "",
+  "description": "Раьбота описать круг в квадруат йоу",
+  "title": "Работа по рабюльуе",
+  "id": "7f4982ba-dca2-4782-a230-4b7a7d97a53c"
+}
